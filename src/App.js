@@ -1,7 +1,10 @@
+import Background from "./components/common/Background";
+import "styles/common/reset.css";
+
 function App() {
   return (
     <div>
-      <h1>안녕하세요</h1>
+      <Background />
     </div>
   );
 }
