@@ -1,11 +1,11 @@
-import "../../styles/common/Background.css";
+import React from 'react';
+import '../../styles/common/background.css';
 
-function Background() {
+export default function Background() {
     return (
         <>
-            <div className="background background__gradient" />
-            <div className="background background__noise-effect" />
+            <div className='background background__gradient' />
+            <div className='background background__noise-effect' />
         </>
     )
 }
-export default Background

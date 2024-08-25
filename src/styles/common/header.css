@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.header {
+    z-index: 98;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.header__logo {
+    color: white;
+    font: 30px/30px "Rubik Bubbles";
+}

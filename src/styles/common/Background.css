@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
-// background 색상
 .background__gradient {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -17,7 +16,6 @@
     z-index: -1;
 }
 
-// background noise 효과
 .background__noise-effect {
     position: fixed;
     left: 0;

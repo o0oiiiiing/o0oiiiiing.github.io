@@ -1,11 +1,12 @@
 import Background from "./components/common/Background";
-import "styles/common/reset.css";
+import Header from "./components/common/Header";
 
 function App() {
   return (
-    <div>
+    <>
       <Background />
-    </div>
+      <Header />
+    </>
   );
 }
 
