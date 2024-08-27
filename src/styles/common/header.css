@@ -1,13 +1,26 @@
 @charset "UTF-8";
 
 .header {
-    z-index: 98;
+    z-index: 99;
     width: 100vw;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 30px 50px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .header__logo {
     color: white;
     font: 30px/30px "Rubik Bubbles";
+}
+
+.nav__list {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    column-gap: 50px;
+    color: white;
+    line-height: 30px;
 }
