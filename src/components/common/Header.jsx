@@ -8,10 +8,10 @@ export default function Header() {
                 <h1 className='header__logo'>Dahyeon Park</h1>
                 <nav className='nav'>
                     <ul className='nav__list'>
-                        <li className='nav__item'>홈</li>
-                        <li className='nav__item'>메뉴1</li>
-                        <li className='nav__item'>메뉴2</li>
-                        <li className='nav__item'>메뉴3</li>
+                        <li className='nav__item'>home</li>
+                        <li className='nav__item'>skill</li>
+                        <li className='nav__item'>project</li>
+                        <li className='nav__item'>hello</li>
                     </ul>
                 </nav>
             </header>

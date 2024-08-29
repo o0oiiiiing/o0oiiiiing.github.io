@@ -1,11 +1,11 @@
-import Background from "./components/common/Background";
 import Header from "./components/common/Header";
+import Home from "./components/common/Home";
 
 function App() {
   return (
     <>
-      <Background />
       <Header />
+      <Home />
     </>
   );
 }
