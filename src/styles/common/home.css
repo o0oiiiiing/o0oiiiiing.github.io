@@ -7,10 +7,10 @@
     top: 0;
     background: #ffffff;
     background: radial-gradient(at 51.6% 14.2%, #e8b3d4 0px, transparent 60%),
-        radial-gradient(at 90.4% 24.8%, hsl(55, 100%, 93%) 0px, transparent 50%),
-        radial-gradient(at 56.7% 94.1%, #c3ebbc 0px, transparent 50%),
+        radial-gradient(at 90.4% 24.8%, hsl(55, 86%, 77%) 0px, transparent 50%),
+        radial-gradient(at 56.7% 94.1%, #c9f4b2 0px, transparent 50%),
         radial-gradient(at 3.4% 90.7%, hsl(44, 68%, 75%) 0px, transparent 50%),
-        radial-gradient(at 89.2% 69.4%, #ccf0e9 0px, transparent 50%),
+        radial-gradient(at 89.2% 69.4%, #bbf4e8 0px, transparent 50%),
         radial-gradient(at 14.2% 24.3%, hsl(349, 69%, 76%) 0px, transparent 60%) no-repeat center;
     background-size: cover;
     z-index: -1;
@@ -22,7 +22,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    z-index: 98;
+    z-index: 90;
     background-image: url("https://i.ibb.co/x3TCktM/645cbb8ec449398255b76326-noise.gif");
     background-position: 0 0;
     background-size: auto;
@@ -33,8 +33,27 @@
 }
 
 .title {
-    color: black;
-    font-size: 60px;
+    color: white;
     text-align: center;
-    transform: translateY(calc(50vh - 120px));
+    position: absolute;
+    width: max-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: 60px/100px "HSSanTokki20-Regular";
+}
+
+.title__large-text {
+    font-size: 70px;
+}
+
+.bounce-text {
+    display: inline-block;
+    animation: bounce-text 2s infinite;
+}
+
+@keyframes bounce-text {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-9px); }
+    100% { transform: translateY(0); }
 }

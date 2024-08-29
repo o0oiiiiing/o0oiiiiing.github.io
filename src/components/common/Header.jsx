@@ -11,7 +11,7 @@ export default function Header() {
                         <li className='nav__item'>home</li>
                         <li className='nav__item'>skill</li>
                         <li className='nav__item'>project</li>
-                        <li className='nav__item'>hello</li>
+                        <li className='nav__item'>contact</li>
                     </ul>
                 </nav>
             </header>

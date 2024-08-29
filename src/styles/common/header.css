@@ -22,5 +22,6 @@
     grid-template-columns: repeat(4, max-content);
     column-gap: 50px;
     color: white;
+    font-size: 17px;
     line-height: 30px;
 }
