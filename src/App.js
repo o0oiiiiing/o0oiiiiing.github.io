@@ -1,11 +1,13 @@
-import Header from "./components/common/Header";
-import Home from "./components/common/Home";
+import Header from "./components/commons/Header";
+import Home from "./components/sections/Home";
+import Skill from "./components/sections/Skill";
 
 function App() {
   return (
     <>
       <Header />
       <Home />
+      <Skill />
     </>
   );
 }
