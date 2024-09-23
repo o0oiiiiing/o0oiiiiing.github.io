@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 .section__home {
-    height: 100vh;
+    position: fixed;
+    top: 0;
 }
 
 /* background */
@@ -89,6 +90,7 @@
 .scroll-prompt__text {
     color: #ffffff;
     font-size: 17px;
+    width: max-content;
 }
 
 .scroll-prompt__icon {

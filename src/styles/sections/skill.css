@@ -2,11 +2,13 @@
 
 .testtest {
     position: relative;
+    margin-top: calc(100vh - 90px);
 }
 
 .test {
-    background-color: black;
+    background-color: lightgray;
     height: 100vh;
+    border-radius: 20px 20px 0 0;
 }
 
 .test2 {
