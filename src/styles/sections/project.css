@@ -1,16 +1,15 @@
 @charset "UTF-8";
 
-.testtest {
+.gg {
     position: relative;
-    margin-top: 100vh;
 }
 
-.test {
+.ff {
     background-color: #252525;
     height: 100vh;
 }
 
-.test2 {
+.dd {
     background-color: lightblue;
     height: 100vh;
 }
