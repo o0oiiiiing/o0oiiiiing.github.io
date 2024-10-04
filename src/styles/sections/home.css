@@ -5,7 +5,6 @@
     top: 0;
 }
 
-/* background */
 .background__gradient {
     width: 100vw;
     height: 100vh;
@@ -40,7 +39,6 @@
     visibility: visible;
 }
 
-/* title */
 .title {
     color: #ffffff;
     text-align: center;
@@ -74,7 +72,6 @@
     }
 }
 
-/* scroll-prompt */
 .scroll-prompt {
     position: absolute;
     top: 90vh;
