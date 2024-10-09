@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+.section__contact {
+    position: relative;
+    background-color: #252525;
+    height: 100vh;
+}

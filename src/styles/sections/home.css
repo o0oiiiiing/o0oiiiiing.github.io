@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.section__home {
+.home {
     position: fixed;
     top: 0;
 }
@@ -51,16 +51,16 @@
     cursor: default;
 }
 
-.title__large-text {
+.title--large-text {
     font-size: 70px;
 }
 
-.title__bounce-text {
+.title--bounce-text {
     display: inline-block;
-    animation: title__bounce-text 3s infinite;
+    animation: title--bounce-text 3s infinite;
 }
 
-@keyframes title__bounce-text {
+@keyframes title--bounce-text {
     0% {
         transform: translateY(0);
     }
@@ -95,12 +95,12 @@
     font-size: 28px;
 }
 
-.scroll-prompt__bounce-icon {
+.scroll-prompt__icon--bounce {
     display: inline-block;
-    animation: scroll-prompt__bounce-icon 1s infinite;
+    animation: scroll-prompt__icon--bounce 1s infinite;
 }
 
-@keyframes scroll-prompt__bounce-icon {
+@keyframes scroll-prompt__icon--bounce {
     0% {
         transform: translateY(0);
     }

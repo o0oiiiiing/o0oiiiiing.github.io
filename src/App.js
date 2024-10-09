@@ -51,11 +51,13 @@ function App() {
     <>
       <Header scrollFunctions={scrollFunctions} />
       <ScrollToTopButton />
-      <Home />
-      <Skill skillRef={skillRef} />
-      <Project projectRef={projectRef} />
-      <Education educationRef={educationRef} />
-      <Contact contactRef={contactRef} />
+      <main>
+        <Home />
+        <Skill skillRef={skillRef} />
+        <Project projectRef={projectRef} />
+        <Education educationRef={educationRef} />
+        <Contact contactRef={contactRef} />
+      </main>
     </>
   );
 }

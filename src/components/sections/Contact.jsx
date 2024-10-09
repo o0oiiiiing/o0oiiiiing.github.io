@@ -1,13 +1,12 @@
 import React from 'react';
-import '../../styles/sections/project.css';
+import '../../styles/sections/contact.css';
 
 export default function Contact({ contactRef }) {
 
     return (
         <>
-            <section className='gg' ref={contactRef}>
-                <div className='ff'></div>
-                <div className='dd'></div>
+            <section className='section__contact' ref={contactRef}>
+                <h2 className=''>contact</h2>
             </section>
         </>
     )

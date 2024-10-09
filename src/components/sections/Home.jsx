@@ -18,7 +18,7 @@ export default function Home() {
 
     return (
         <>
-            <main className='section__home'>
+            <section className='home'>
                 <div className='background background__gradient'
                     style={{
                         filter: `brightness(${Math.max(1 - scrollY / 700, 0.4)})` // 스크롤에 따라 밝기 조절
@@ -31,15 +31,15 @@ export default function Home() {
                     }}
                 >
                     안녕하세요,<br />
-                    프론트엔드 개발자 <strong className='title__large-text title__bounce-text'>"박다현"</strong> 입니다.
+                    프론트엔드 개발자 <strong className='title--large-text title--bounce-text'>"박다현"</strong> 입니다.
                 </h1>
                 <div className='scroll-prompt'>
                     <span className='scroll-prompt__text'>scroll down</span>
-                    <span className='scroll-prompt__icon scroll-prompt__bounce-icon material-symbols-rounded'>
+                    <span className='scroll-prompt__icon scroll-prompt__icon--bounce material-symbols-rounded'>
                         keyboard_double_arrow_down
                     </span>
                 </div>
-            </main>
+            </section>
         </>
     )
 }

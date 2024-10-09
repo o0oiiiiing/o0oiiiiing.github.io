@@ -1,13 +1,12 @@
 import React from 'react';
-import '../../styles/sections/project.css';
+import '../../styles/sections/education.css';
 
 export default function Education({ educationRef }) {
 
     return (
         <>
-            <section className='gg' ref={educationRef}>
-                <div className='ff'></div>
-                <div className='dd'></div>
+            <section className='section__education' ref={educationRef}>
+                <h2 className=''>education</h2>
             </section>
         </>
     )

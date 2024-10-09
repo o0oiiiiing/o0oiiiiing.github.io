@@ -1,15 +1,61 @@
 @charset "UTF-8";
 
-.gg {
+.project {
     position: relative;
-}
-
-.ff {
     background-color: #252525;
-    height: 100vh;
+    padding-top: 130px;
 }
 
-.dd {
-    background-color: lightblue;
-    height: 100vh;
+.project__heading {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding: 20px 0px 40px 5vw;
+    font-weight: bold;
+}
+
+.project__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+    justify-content: center;
+    margin: 0 5vw;
+}
+
+.project__item {
+    background-color: white;
+    border-radius: 24px;
+    padding: 10px;
+}
+
+.project__item:hover {
+    cursor: pointer;
+}
+
+.project__item-thumbnail {
+    max-width: 800px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.project__item-thumbnail--light {
+    border: 1.5px solid rgb(224, 224, 224);
+}
+
+.project__item-title {
+    font-size: 20px;
+    padding: 20px 0 12px 5px;
+    font-weight: bold;
+}
+
+.project__item-description {
+    color: gray;
+    padding: 0 0 20px 5px;
+}
+
+.link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 0 12px 5px;
 }
