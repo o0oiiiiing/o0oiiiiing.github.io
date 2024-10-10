@@ -9,9 +9,9 @@
 .project__heading {
     color: white;
     font-size: 25px;
-    letter-spacing: 1px;
-    padding: 20px 0px 40px 5vw;
-    font-weight: bold;
+    letter-spacing: 5px;
+    padding: 30px 0px 30px 5vw;
+    font-family: 'NanumSquareExtraBold';
 }
 
 .project__grid {
@@ -26,6 +26,7 @@
     background-color: white;
     border-radius: 24px;
     padding: 10px;
+    font-family: 'NanumSquare';
 }
 
 .project__item:hover {
@@ -44,9 +45,9 @@
 }
 
 .project__item-title {
+    font-weight: bold;
     font-size: 20px;
     padding: 20px 0 12px 5px;
-    font-weight: bold;
 }
 
 .project__item-description {
