@@ -5,7 +5,6 @@
     background-color: #252525;
     margin-top: 100vh;
     padding-top: 130px;
-    height: 100vh;
 }
 
 .skill__heading {
@@ -16,6 +15,32 @@
     font-family: "NanumSquareExtraBold";
 }
 
-.skill__icon {
-    height: 50px;
+.skill__item-title {
+    color: white;
+    font-family: "NanumSquareExtraBold";
+    text-align: center;
+    padding: 10px 0;
+}
+
+.skill__item-flex {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 14px;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.skill__item-icon {
+    height: 70px;
+}
+
+.skill__item-caption {
+    font-family: "NanumSquare";
+    font-size: 15px;
+    color: #252525;
+    height: 20px;
+    text-align: center;
+    padding-top: 7px;
 }

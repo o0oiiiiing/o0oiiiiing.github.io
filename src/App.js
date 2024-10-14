@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import Header from "./components/commons/Header";
 import Home from "./components/sections/Home";
-import Skill from "./components/sections/Skill";
+import Skill from "./components/Skill/Skill";
 import Project from "./components/sections/Project";
 import Education from "./components/sections/Education";
 import Contact from "./components/sections/Contact";
