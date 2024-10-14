@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/sections/skill.css';
+import SkillFigure from './SkillFigure';
 import html from '../../assets/skills/html.png'
 import css from '../../assets/skills/css.png'
 import js from '../../assets/skills/js.png'
@@ -10,14 +11,15 @@ import emotion from '../../assets/skills/emotion.png'
 import mobX from '../../assets/skills/mobX.png'
 import axios from '../../assets/skills/axios.png'
 import router from '../../assets/skills/router.png'
-import sts from '../../assets/skills/sts.png'
+import oracleDB from '../../assets/skills/oracleDB.png'
+import mariaDB from '../../assets/skills/mariaDB.png'
 import vsCode from '../../assets/skills/vsCode.png'
+import sts from '../../assets/skills/sts.png'
 import figma from '../../assets/skills/figma.png'
 import postman from '../../assets/skills/postman.png'
 import git from '../../assets/skills/git.png'
 import github from '../../assets/skills/github.png'
 import discord from '../../assets/skills/discord.png'
-import SkillFigure from './SkillFigure';
 
 export default function Skill({ skillRef }) {
 
@@ -37,9 +39,14 @@ export default function Skill({ skillRef }) {
         { src: router, alt: "router", caption: "router" },
     ]
 
+    const database = [
+        { src: oracleDB, alt: "oracleDB", caption: "oracleDB" },
+        { src: mariaDB, alt: "mariaDB", caption: "mariaDB" },
+    ];
+
     const tools = [
         { src: vsCode, alt: "VSCode", caption: "VSCode" },
-        { src: sts, alt: "sts", caption: "sts" },
+        { src: sts, alt: "STS", caption: "STS" },
         { src: figma, alt: "figma", caption: "figma" },
         { src: git, alt: "git", caption: "git" },
         { src: github, alt: "github", caption: "github" },
@@ -51,30 +58,42 @@ export default function Skill({ skillRef }) {
         <>
             <section className='skill' ref={skillRef}>
                 <h2 className='skill__heading'>SKILL</h2>
-                <article className='skill__item'>
-                    <h3 className='skill__item-title'>Web Technologies</h3>
-                    <div className='skill__item-flex'>
-                        {webTechnologies.map((tech, index) => (
-                            <SkillFigure key={index} src={tech.src} alt={tech.alt} caption={tech.caption} />
-                        ))}
-                    </div>
-                </article>
-                <article className='skill__item'>
-                    <h3 className='skill__item-title'>Frontend Frameworks/Libraries</h3>
-                    <div className='skill__item-flex'>
-                        {frontend.map((fe, index) => (
-                            <SkillFigure key={index} src={fe.src} alt={fe.alt} caption={fe.caption} />
-                        ))}
-                    </div>
-                </article>
-                <article className='skill__item'>
-                    <h3 className='skill__item-title'>Tools</h3>
-                    <div className='skill__item-flex'>
-                        {tools.map((tool, index) => (
-                            <SkillFigure key={index} src={tool.src} alt={tool.alt} caption={tool.caption} />
-                        ))}
-                    </div>
-                </article>
+                <div className='skill__flex'>
+                    <article className='skill__item'>
+                        <h3 className='skill__item-title'>Web Technologies</h3>
+                        <div className='skill__item-flex'>
+                            {webTechnologies.map((tech, index) => (
+                                <SkillFigure key={index} src={tech.src} alt={tech.alt} caption={tech.caption} />
+                            ))}
+                        </div>
+                    </article>
+                    <article className='skill__item'>
+                        <h3 className='skill__item-title'>Frontend Frameworks / Libraries</h3>
+                        <div className='skill__item-flex'>
+                            {frontend.map((fe, index) => (
+                                <SkillFigure key={index} src={fe.src} alt={fe.alt} caption={fe.caption} />
+                            ))}
+                        </div>
+                    </article>
+                </div>
+                <div className='skill__flex'>
+                    <article className='skill__item'>
+                        <h3 className='skill__item-title'>Database</h3>
+                        <div className='skill__item-flex'>
+                            {database.map((db, index) => (
+                                <SkillFigure key={index} src={db.src} alt={db.alt} caption={db.caption} />
+                            ))}
+                        </div>
+                    </article>
+                    <article className='skill__item'>
+                        <h3 className='skill__item-title'>Tools</h3>
+                        <div className='skill__item-flex'>
+                            {tools.map((tool, index) => (
+                                <SkillFigure key={index} src={tool.src} alt={tool.alt} caption={tool.caption} />
+                            ))}
+                        </div>
+                    </article>
+                </div>
             </section>
         </>
     )

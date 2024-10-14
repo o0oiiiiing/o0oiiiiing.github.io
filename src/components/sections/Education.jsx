@@ -5,8 +5,8 @@ export default function Education({ educationRef }) {
 
     return (
         <>
-            <section className='section__education' ref={educationRef}>
-                <h2 className=''>education</h2>
+            <section className='education' ref={educationRef}>
+                <h2 className='education__heading'>EDUCATION</h2>
             </section>
         </>
     )

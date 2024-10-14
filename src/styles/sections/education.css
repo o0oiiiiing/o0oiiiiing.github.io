@@ -1,7 +1,16 @@
 @charset "UTF-8";
 
-.section__education {
+.education {
     position: relative;
     background-color: #252525;
     height: 100vh;
+    padding-top: 130px;
+}
+
+.education__heading {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding: 30px 0px 30px 5vw;
+    font-family: "NanumSquareExtraBold";
 }
