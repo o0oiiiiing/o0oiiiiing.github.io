@@ -8,10 +8,9 @@
 
 .project__heading {
     color: white;
-    font-size: 25px;
-    letter-spacing: 5px;
-    padding: 30px 0px 30px 5vw;
-    font-family: 'NanumSquareExtraBold';
+    letter-spacing: 0.4rem;
+    padding: 30px 0px 30px 10vw;
+    font: 700 1.7rem "Avenir";
 }
 
 .project__grid {
@@ -19,7 +18,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2vw;
     justify-content: center;
-    margin: 0 5vw;
+    margin: 0 10vw;
 }
 
 .project__item {

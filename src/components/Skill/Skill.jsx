@@ -57,7 +57,7 @@ export default function Skill({ skillRef }) {
     return (
         <>
             <section className='skill' ref={skillRef}>
-                <h2 className='skill__heading'>SKILL</h2>
+                <h2 className='skill__heading'>Skill</h2>
                 <div className='skill__flex'>
                     <article className='skill__item'>
                         <h3 className='skill__item-title'>Web Technologies</h3>

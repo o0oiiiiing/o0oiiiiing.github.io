@@ -9,32 +9,30 @@
 
 .skill__heading {
     color: white;
-    font-size: 25px;
-    letter-spacing: 5px;
-    padding: 30px 0 0 5vw;
-    font-family: "NanumSquareExtraBold";
+    letter-spacing: 0.4rem;
+    padding: 30px 0 0 10vw;
+    font: 700 1.7rem "Avenir";
 }
 
 .skill__flex {
     display: flex;
-    margin: 0 auto;
     gap: 30px;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .skill__item-title {
-    color: white;
-    font-size: 18px;
-    font-family: "NanumSquareExtraBold";
-    text-align: center;
     padding: 30px 0 15px 0;
-    letter-spacing: 1.5px;
+    color: white;
+    text-align: center;
+    font: 1.1rem "Avenir";
+    letter-spacing: 0.13rem;
 }
 
 .skill__item-flex {
     display: flex;
     gap: 20px;
-    background-color: white;
+    background-color: white  ;
     padding: 15px 20px;
     border-radius: 14px;
     width: fit-content;
@@ -45,9 +43,9 @@
 }
 
 .skill__item-caption {
-    font-family: "NanumSquare";
-    font-size: 15px;
-    text-align: center;
     padding-top: 9px;
-    letter-spacing: 1px;
+    text-align: center;
+    color: #1e1e1e;
+    font: 0.9rem "Avenir";
+    letter-spacing: 0.06rem;
 }
