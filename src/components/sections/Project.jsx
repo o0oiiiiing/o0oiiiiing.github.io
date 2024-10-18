@@ -10,7 +10,7 @@ export default function Project({ projectRef }) {
     return (
         <>
             <section className='project' ref={projectRef}>
-                <h2 className='project__heading'>PROJECT</h2>
+                <h2 className='project__heading'>Project</h2>
                 <div className='project__grid'>
                     <article className='project__item'>
                         <img className='project__item-thumbnail' src={personal_project_01} alt="프로젝트 이미지" />

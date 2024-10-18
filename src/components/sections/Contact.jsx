@@ -5,8 +5,8 @@ export default function Contact({ contactRef }) {
 
     return (
         <>
-            <section className='section__contact' ref={contactRef}>
-                <h2 className=''>contact</h2>
+            <section className='contact' ref={contactRef}>
+                <h2 className='contact__heading'>Contact</h2>
             </section>
         </>
     )
