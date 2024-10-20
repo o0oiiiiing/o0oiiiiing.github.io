@@ -1,0 +1,20 @@
+/* 모바일 세로 (해상도 ~ 479px)*/
+
+@media all and (max-width: 479px) {
+    .skill__flex {
+        display: block;
+        margin: 0 5vw;
+    }
+
+    .skill__item-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        background-color: white;
+        padding: 15px 20px;
+        border-radius: 14px;
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
