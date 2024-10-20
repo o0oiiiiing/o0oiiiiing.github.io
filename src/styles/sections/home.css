@@ -47,12 +47,12 @@
     top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
-    font: 60px/100px "HSSanTokki20-Regular";
+    font: 3.75rem/6.25rem "HSSanTokki20-Regular";
     cursor: default;
 }
 
 .title--large-text {
-    font-size: 70px;
+    font-size: 4.37rem;
 }
 
 .title--bounce-text {
@@ -86,13 +86,13 @@
 
 .scroll-prompt__text {
     color: #ffffff;
-    font-size: 17px;
+    font-size: 1.1rem;
     width: max-content;
 }
 
 .scroll-prompt__icon {
     color: #ffffff;
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .scroll-prompt__icon--bounce {

@@ -25,16 +25,16 @@
 
 .header__logo {
     color: white;
-    font: 30px/30px "Rubik Bubbles";
+    font: 1.8rem/1.8rem "Rubik Bubbles";
 }
 
 .nav__list {
     display: grid;
     grid-template-columns: repeat(5, max-content);
-    column-gap: 50px;
+    column-gap: 3.2rem;;
     color: white;
-    font-size: 17px;
-    line-height: 30px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
 }
 
 .nav__item {
