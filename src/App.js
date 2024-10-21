@@ -3,7 +3,7 @@ import Header from "./components/commons/Header";
 import Home from "./components/sections/Home";
 import Skill from "./components/Skill/Skill";
 import Project from "./components/sections/Project";
-import Education from "./components/sections/Education";
+import Education from "./components/Education/Education";
 import Contact from "./components/sections/Contact";
 import ScrollToTopButton from "./components/commons/ScrollToTopButton";
 

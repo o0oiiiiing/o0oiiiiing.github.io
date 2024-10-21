@@ -1,57 +1,39 @@
 import React from 'react';
 import '../../styles/sections/skill.css';
 import SkillFigure from './SkillFigure';
-import html from '../../assets/skills/html.png'
-import css from '../../assets/skills/css.png'
-import js from '../../assets/skills/js.png'
-import jsp from '../../assets/skills/jsp.png'
-import react from '../../assets/skills/react.png'
-import nextJs from '../../assets/skills/nextJs.png'
-import emotion from '../../assets/skills/emotion.png'
-import mobX from '../../assets/skills/mobX.png'
-import axios from '../../assets/skills/axios.png'
-import router from '../../assets/skills/router.png'
-import oracleDB from '../../assets/skills/oracleDB.png'
-import mariaDB from '../../assets/skills/mariaDB.png'
-import vsCode from '../../assets/skills/vsCode.png'
-import sts from '../../assets/skills/sts.png'
-import figma from '../../assets/skills/figma.png'
-import postman from '../../assets/skills/postman.png'
-import git from '../../assets/skills/git.png'
-import github from '../../assets/skills/github.png'
-import discord from '../../assets/skills/discord.png'
+import skillImages from './SkillImages';
 
 export default function Skill({ skillRef }) {
 
     const webTechnologies = [
-        { src: html, alt: "HTML", caption: "HTML" },
-        { src: css, alt: "CSS", caption: "CSS" },
-        { src: js, alt: "JavaScript", caption: "JavaScript" },
-        { src: jsp, alt: "JSP", caption: "JSP" },
+        { src: skillImages.html, alt: "HTML", caption: "HTML" },
+        { src: skillImages.css, alt: "CSS", caption: "CSS" },
+        { src: skillImages.js, alt: "JavaScript", caption: "JavaScript" },
+        { src: skillImages.jsp, alt: "JSP", caption: "JSP" },
     ];
 
     const frontend = [
-        { src: react, alt: "React", caption: "React" },
-        { src: nextJs, alt: "Next.js", caption: "Next.js" },
-        { src: emotion, alt: "emotion", caption: "emotion" },
-        { src: mobX, alt: "MobX", caption: "MobX" },
-        { src: axios, alt: "axios", caption: "axios" },
-        { src: router, alt: "router", caption: "router" },
+        { src: skillImages.react, alt: "React", caption: "React" },
+        { src: skillImages.nextJs, alt: "Next.js", caption: "Next.js" },
+        { src: skillImages.emotion, alt: "emotion", caption: "emotion" },
+        { src: skillImages.mobX, alt: "MobX", caption: "MobX" },
+        { src: skillImages.axios, alt: "axios", caption: "axios" },
+        { src: skillImages.router, alt: "router", caption: "router" },
     ]
 
     const database = [
-        { src: oracleDB, alt: "oracleDB", caption: "oracleDB" },
-        { src: mariaDB, alt: "mariaDB", caption: "mariaDB" },
+        { src: skillImages.oracleDB, alt: "oracleDB", caption: "oracleDB" },
+        { src: skillImages.mariaDB, alt: "mariaDB", caption: "mariaDB" },
     ];
 
     const tools = [
-        { src: vsCode, alt: "VSCode", caption: "VSCode" },
-        { src: sts, alt: "STS", caption: "STS" },
-        { src: figma, alt: "figma", caption: "figma" },
-        { src: git, alt: "git", caption: "git" },
-        { src: github, alt: "github", caption: "github" },
-        { src: postman, alt: "postman", caption: "postman" },
-        { src: discord, alt: "Discord", caption: "Discord" },
+        { src: skillImages.vsCode, alt: "VSCode", caption: "VSCode" },
+        { src: skillImages.sts, alt: "STS", caption: "STS" },
+        { src: skillImages.figma, alt: "figma", caption: "figma" },
+        { src: skillImages.git, alt: "git", caption: "git" },
+        { src: skillImages.github, alt: "github", caption: "github" },
+        { src: skillImages.postman, alt: "postman", caption: "postman" },
+        { src: skillImages.discord, alt: "Discord", caption: "Discord" },
     ]
 
     return (
