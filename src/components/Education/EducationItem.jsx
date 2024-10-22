@@ -5,9 +5,11 @@ export default function EducationItem({ src, alt, title, date, description }) {
     return (
         <article className='education__item'>
             <img className='education__item-icon' src={src} alt={alt} />
-            <h3 className='education__item-title'>{title}</h3>
-            <p className='education__item-date'>{date}</p>
-            <p className='education__item-description'>{description}</p>
+            <div className='education__item-content'>
+                <h3 className='education__item-title'>{title}</h3>
+                <p className='education__item-date'>{date}</p>
+                <p className='education__item-description'>{description}</p>
+            </div>
         </article>
     )
 }
