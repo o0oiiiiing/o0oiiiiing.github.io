@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae2fa917.css",
-    "main.js": "/static/js/main.d0364814.js",
+    "main.css": "/static/css/main.33a89703.css",
+    "main.js": "/static/js/main.0a0ed997.js",
     "static/media/team_project_03.png": "/static/media/team_project_03.7d7632cf92d673e665a6.png",
     "static/media/team_project_01.png": "/static/media/team_project_01.becff199490c6a742bf6.png",
     "static/media/team_project_02.png": "/static/media/team_project_02.11a895789c5d9606caf1.png",
@@ -9,26 +9,28 @@
     "static/media/emotion.png": "/static/media/emotion.e7c5171d414020397499.png",
     "static/media/discord.png": "/static/media/discord.bb8b8f065d6bd90b4bc2.png",
     "static/media/sts.png": "/static/media/sts.1a753d3a09a8df3cec6c.png",
+    "static/media/BCU.png": "/static/media/BCU.0caf5d811022edf4ceee.png",
     "static/media/git.png": "/static/media/git.52ffcca1c2260d3a141b.png",
+    "static/media/OSC.png": "/static/media/OSC.44d317bf0ad161e7219e.png",
     "static/media/vsCode.png": "/static/media/vsCode.b39e8d9fd5dd1a1815cf.png",
     "static/media/mobX.png": "/static/media/mobX.35d61ab2ed1ccbd7b23b.png",
     "static/media/react.png": "/static/media/react.00e9ea933af6b2ab4df5.png",
     "static/media/router.png": "/static/media/router.bd6a5527e84ac4a1530a.png",
     "static/media/mariaDB.png": "/static/media/mariaDB.89a6f3b687bc129d1be6.png",
     "static/media/figma.png": "/static/media/figma.38737259a16604f20b38.png",
-    "static/media/BCU.png": "/static/media/BCU.718ab0a9ce3cd0ce5f83.png",
     "static/media/oracleDB.png": "/static/media/oracleDB.962adccc0af8e2b2d45a.png",
     "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/axios.png": "/static/media/axios.56d614cd475a0cde1647.png",
+    "static/media/asp.png": "/static/media/asp.16e7a2a63e3a82f8d41e.png",
     "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/nextJs.png": "/static/media/nextJs.388f848a9b473caf9995.png",
     "index.html": "/index.html",
-    "main.ae2fa917.css.map": "/static/css/main.ae2fa917.css.map",
-    "main.d0364814.js.map": "/static/js/main.d0364814.js.map"
+    "main.33a89703.css.map": "/static/css/main.33a89703.css.map",
+    "main.0a0ed997.js.map": "/static/js/main.0a0ed997.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae2fa917.css",
-    "static/js/main.d0364814.js"
+    "static/css/main.33a89703.css",
+    "static/js/main.0a0ed997.js"
   ]
 }
