@@ -3,7 +3,7 @@ import Header from "./components/commons/Header";
 import Home from "./components/sections/Home";
 import Skill from "./components/Skill/Skill";
 import Project from "./components/sections/Project";
-import Education from "./components/Education/Education";
+import Experience from "./components/Experience/Experience";
 import Contact from "./components/sections/Contact";
 import ScrollToTopButton from "./components/commons/ScrollToTopButton";
 
@@ -11,7 +11,7 @@ function App() {
   // 각 영역에 대한 ref 생성
   const skillRef = useRef(null);
   const projectRef = useRef(null);
-  const educationRef = useRef(null);
+  const experienceRef = useRef(null);
   const contactRef = useRef(null);
 
   // ref를 이용해 스크롤하는 함수
@@ -27,9 +27,9 @@ function App() {
     }
   };
 
-  const scrollToEducation = () => {
-    if (educationRef.current) {
-      educationRef.current.scrollIntoView({ behavior: 'smooth' });
+  const scrollToExperience = () => {
+    if (experienceRef.current) {
+      experienceRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -43,7 +43,7 @@ function App() {
   const scrollFunctions = {
     scrollToSkill,
     scrollToProject,
-    scrollToEducation,
+    scrollToExperience,
     scrollToContact,
   };
 
@@ -55,7 +55,7 @@ function App() {
         <Home />
         <Skill skillRef={skillRef} />
         <Project projectRef={projectRef} />
-        <Education educationRef={educationRef} />
+        <Experience experienceRef={experienceRef} />
         <Contact contactRef={contactRef} />
       </main>
     </>

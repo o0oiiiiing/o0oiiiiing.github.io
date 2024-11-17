@@ -10,6 +10,7 @@ export default function Skill({ skillRef }) {
         { src: skillImages.css, alt: "CSS", caption: "CSS" },
         { src: skillImages.js, alt: "JavaScript", caption: "JavaScript" },
         { src: skillImages.jsp, alt: "JSP", caption: "JSP" },
+        { src: skillImages.asp, alt: "ASP", caption: "ASP" },
     ];
 
     const frontend = [

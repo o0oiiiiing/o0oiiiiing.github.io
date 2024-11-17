@@ -35,7 +35,7 @@ export default function Header({ scrollFunctions }) {
                         <li className='nav__item' onClick={scrollToHome}>home</li>
                         <li className='nav__item' onClick={scrollFunctions.scrollToSkill}>skill</li>
                         <li className='nav__item' onClick={scrollFunctions.scrollToProject}>project</li>
-                        <li className='nav__item' onClick={scrollFunctions.scrollToEducation}>education</li>
+                        <li className='nav__item' onClick={scrollFunctions.scrollToExperience}>experience</li>
                         <li className='nav__item' onClick={scrollFunctions.scrollToContact}>contact</li>
                     </ul>
                 </nav>

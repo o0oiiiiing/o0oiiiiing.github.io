@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
-.education {
+.experience {
     position: relative;
     background-color: #252525;
     padding-top: 130px;
 }
 
-.education__heading {
+.experience__heading {
     color: white;
     letter-spacing: 0.4rem;
     padding: 20px 0 10px 10vw;
     font: 700 1.7rem "Avenir";
 }
 
-.education__item {
+.experience__item {
     color: white;
     font-family: "Avenir", "NanumSquare";
     margin: 30px 10vw 0 10vw;
@@ -21,32 +21,37 @@
     padding-bottom: 30px;
 }
 
-.education__item-icon {
+.experience__item-icon {
     object-fit: contain;
-    max-width: 130px;
+    max-width: 150px;
     width: 100%;
-    height: 130px;
-    padding: 20px 40px 20px 20px;
-    border-right: 1px solid gray;
+    height: 150px;
+    padding: 20px;
+    margin: 20px 40px 20px 0;
+    border-radius: 24px;
+    background-color: white;
 }
 
-.education__item-content {
-    height: 100px;
+.experience__item-content {
+    height: auto;
     padding: 5px 0 0 40px;
+    border-left: 1px solid rgb(84, 84, 84);
 }
 
-.education__item-title {
+.experience__item-title {
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 2px;
     padding-bottom: 15px;
 }
 
-.education__item-date {
+.experience__item-date {
     font-size: 17px;
     padding-bottom: 10px;
+    color: rgb(142, 142, 142);
 }
 
-.education__item-description {
+.experience__item-description {
+    margin-top: 10px;
     font-size: 17px;
 }

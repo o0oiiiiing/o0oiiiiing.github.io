@@ -19,6 +19,7 @@ import postman from '../../assets/skills/postman.png'
 import git from '../../assets/skills/git.png'
 import github from '../../assets/skills/github.png'
 import discord from '../../assets/skills/discord.png'
+import asp from '../../assets/skills/asp.png'
 
 const skillImages = {
   html,
@@ -39,7 +40,8 @@ const skillImages = {
   postman,
   git,
   github,
-  discord
+  discord,
+  asp
 };
 
 export default skillImages;
