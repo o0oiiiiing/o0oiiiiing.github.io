@@ -20,11 +20,6 @@ export default function Skill({ skillRef }) {
         { src: skillImages.mobX, alt: "MobX", caption: "MobX" },
         { src: skillImages.axios, alt: "axios", caption: "axios" },
         { src: skillImages.router, alt: "router", caption: "router" },
-    ]
-
-    const database = [
-        { src: skillImages.oracleDB, alt: "oracleDB", caption: "oracleDB" },
-        { src: skillImages.mariaDB, alt: "mariaDB", caption: "mariaDB" },
     ];
 
     const tools = [
@@ -35,7 +30,14 @@ export default function Skill({ skillRef }) {
         { src: skillImages.github, alt: "github", caption: "github" },
         { src: skillImages.postman, alt: "postman", caption: "postman" },
         { src: skillImages.discord, alt: "Discord", caption: "Discord" },
-    ]
+        { src: skillImages.editPlus, alt: "EditPlus", caption: "EditPlus" },
+        { src: skillImages.fileZilla, alt: "FileZilla", caption: "FileZilla" },
+    ];
+
+    const database = [
+        { src: skillImages.oracleDB, alt: "oracleDB", caption: "oracleDB" },
+        { src: skillImages.mariaDB, alt: "mariaDB", caption: "mariaDB" },
+    ];
 
     return (
         <>
@@ -61,18 +63,18 @@ export default function Skill({ skillRef }) {
                 </div>
                 <div className='skill__flex'>
                     <article className='skill__item'>
-                        <h3 className='skill__item-title'>Database</h3>
-                        <div className='skill__item-flex'>
-                            {database.map((db, index) => (
-                                <SkillFigure key={index} src={db.src} alt={db.alt} caption={db.caption} />
-                            ))}
-                        </div>
-                    </article>
-                    <article className='skill__item'>
                         <h3 className='skill__item-title'>Tools</h3>
                         <div className='skill__item-flex'>
                             {tools.map((tool, index) => (
                                 <SkillFigure key={index} src={tool.src} alt={tool.alt} caption={tool.caption} />
+                            ))}
+                        </div>
+                    </article>
+                    <article className='skill__item'>
+                        <h3 className='skill__item-title'>Database</h3>
+                        <div className='skill__item-flex'>
+                            {database.map((db, index) => (
+                                <SkillFigure key={index} src={db.src} alt={db.alt} caption={db.caption} />
                             ))}
                         </div>
                     </article>
