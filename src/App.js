@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Header from "./components/commons/Header";
 import Home from "./components/sections/Home";
 import Skill from "./components/Skill/Skill";
-import Project from "./components/sections/Project";
+import Project from "./components/Project/Project";
 import Experience from "./components/Experience/Experience";
 import Contact from "./components/sections/Contact";
 import ScrollToTopButton from "./components/commons/ScrollToTopButton";
@@ -39,7 +39,7 @@ function App() {
     }
   };
 
-  // 메뉴별 스크롤 함수 모음
+  // 영역별 스크롤 함수 모음
   const scrollFunctions = {
     scrollToSkill,
     scrollToProject,

@@ -1,5 +1,4 @@
-/* skill 영역에 들어가는 이미지 경로들 */
-
+/* skill 영역에 들어가는 이미지 경로들 (객체) */
 import html from '../../assets/skills/html.png'
 import css from '../../assets/skills/css.png'
 import js from '../../assets/skills/js.png'
@@ -20,28 +19,32 @@ import git from '../../assets/skills/git.png'
 import github from '../../assets/skills/github.png'
 import discord from '../../assets/skills/discord.png'
 import asp from '../../assets/skills/asp.png'
+import editPlus from '../../assets/skills/editPlus.png'
+import fileZilla from '../../assets/skills/fileZilla.png'
 
 const skillImages = {
-  html,
-  css,
-  js,
-  jsp,
-  react,
-  nextJs,
-  emotion,
-  mobX,
+  asp,
   axios,
-  router,
-  oracleDB,
-  mariaDB,
-  vsCode,
-  sts,
+  css,
+  discord,
+  editPlus,
+  emotion,
   figma,
-  postman,
+  fileZilla,
   git,
   github,
-  discord,
-  asp
+  html,
+  js,
+  jsp,
+  mariaDB,
+  mobX,
+  nextJs,
+  oracleDB,
+  postman,
+  react,
+  router,
+  sts,
+  vsCode,
 };
 
 export default skillImages;
