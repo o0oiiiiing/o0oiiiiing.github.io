@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.33a89703.css",
-    "main.js": "/static/js/main.0a0ed997.js",
+    "main.js": "/static/js/main.e293d7a2.js",
     "static/media/team_project_03.png": "/static/media/team_project_03.7d7632cf92d673e665a6.png",
     "static/media/team_project_01.png": "/static/media/team_project_01.becff199490c6a742bf6.png",
     "static/media/team_project_02.png": "/static/media/team_project_02.11a895789c5d9606caf1.png",
@@ -12,7 +12,9 @@
     "static/media/BCU.png": "/static/media/BCU.0caf5d811022edf4ceee.png",
     "static/media/git.png": "/static/media/git.52ffcca1c2260d3a141b.png",
     "static/media/OSC.png": "/static/media/OSC.44d317bf0ad161e7219e.png",
+    "static/media/editPlus.png": "/static/media/editPlus.5e74c69a96fd16f6dd18.png",
     "static/media/vsCode.png": "/static/media/vsCode.b39e8d9fd5dd1a1815cf.png",
+    "static/media/fileZilla.png": "/static/media/fileZilla.1f01bac643906deca0f1.png",
     "static/media/mobX.png": "/static/media/mobX.35d61ab2ed1ccbd7b23b.png",
     "static/media/react.png": "/static/media/react.00e9ea933af6b2ab4df5.png",
     "static/media/router.png": "/static/media/router.bd6a5527e84ac4a1530a.png",
@@ -27,10 +29,10 @@
     "static/media/nextJs.png": "/static/media/nextJs.388f848a9b473caf9995.png",
     "index.html": "/index.html",
     "main.33a89703.css.map": "/static/css/main.33a89703.css.map",
-    "main.0a0ed997.js.map": "/static/js/main.0a0ed997.js.map"
+    "main.e293d7a2.js.map": "/static/js/main.e293d7a2.js.map"
   },
   "entrypoints": [
     "static/css/main.33a89703.css",
-    "static/js/main.0a0ed997.js"
+    "static/js/main.e293d7a2.js"
   ]
 }
