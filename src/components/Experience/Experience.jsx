@@ -34,7 +34,13 @@ export default function Education({ experienceRef }) {
             alt: '한걸음컴퍼니',
             title: '한걸음컴퍼니',
             date: '2024.11 - 현재',
-            description: ['웹R&D부서 개발팀 사원', '', '- 랜딩페이지 전환 스크립트 삽입']
+            description:
+                [
+                    '웹R&D부서 개발팀 사원',
+                    '',
+                    '• 랜딩페이지 전환 스크립트 삽입',
+                    '• 레거시 코드 리팩토링을 통해 form 데이터 전송 비동기화, View와 DB 분리',
+                ]
         },
     ];
 
