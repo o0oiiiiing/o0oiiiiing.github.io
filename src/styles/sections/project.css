@@ -27,6 +27,8 @@
     padding: 10px;
     font-family: "Avenir", "NanumSquare";
     letter-spacing: 0.06rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .project__item:hover {
@@ -57,11 +59,12 @@
 
 .project__item-flex {
     display: flex;
+    margin-top: auto;
 }
 
 .project__item-icon {
-    height: 50px;
-    margin: 10px 15px 10px 0;
+    height: 40px;
+    margin: 7px 15px 10px 5px;
 }
 
 .project__item-icon:hover {
