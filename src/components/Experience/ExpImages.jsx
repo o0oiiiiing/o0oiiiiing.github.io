@@ -4,10 +4,10 @@ import bcu from '../../assets/experience/BCU.png'
 import ict from '../../assets/experience/ICT.png'
 import osc from '../../assets/experience/OSC.png'
 
-const ExperienceImages = {
+const ExpImages = {
     bcu,
     ict,
     osc,
 }
 
-export default ExperienceImages;
+export default ExpImages;

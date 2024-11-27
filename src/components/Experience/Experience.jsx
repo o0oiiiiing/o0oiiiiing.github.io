@@ -1,19 +1,19 @@
 import React from 'react';
 import '../../styles/sections/experience.css';
-import ExperienceItem from './ExperienceItem';
-import ExperienceImages from './ExperienceImages';
+import ExpItem from './ExpItem';
+import ExpImages from './ExpImages';
 
 export default function Education({ experienceRef }) {
-    const experienceItem = [
+    const expItem = [
         {
-            src: ExperienceImages.bcu,
+            src: ExpImages.bcu,
             alt: '부천대학교',
             title: '부천대학교',
             date: '2020.03 - 2022.02 (2년)',
             description: ['정보통신과 졸업']
         },
         {
-            src: ExperienceImages.ict,
+            src: ExpImages.ict,
             alt: '한국ICT인재개발원',
             title: '한국ICT인재개발원',
             date: '2023.12 - 2024.07 (7개월)',
@@ -29,7 +29,7 @@ export default function Education({ experienceRef }) {
                 ]
         },
         {
-            src: ExperienceImages.osc,
+            src: ExpImages.osc,
             alt: '한걸음컴퍼니',
             title: '한걸음컴퍼니',
             date: '2024.11 - 현재',
@@ -58,8 +58,8 @@ export default function Education({ experienceRef }) {
         <>
             <section className='experience' ref={experienceRef}>
                 <h2 className='exp__heading'>Experience</h2>
-                {experienceItem.map((item, index) => (
-                    <ExperienceItem key={index} src={item.src} alt={item.alt}
+                {expItem.map((item, index) => (
+                    <ExpItem key={index} src={item.src} alt={item.alt}
                         title={item.title} date={item.date} description={item.description} />
                 ))}
             </section>

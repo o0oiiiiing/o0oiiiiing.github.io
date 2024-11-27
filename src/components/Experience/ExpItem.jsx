@@ -1,7 +1,7 @@
 import React from 'react';
 
 /* experience 영역의 item */
-export default function ExperienceItem({ src, alt, title, date, description }) {
+export default function ExpItem({ src, alt, title, date, description }) {
 
     // 중첩된 리스트를 처리하는 함수
     function renderDescList(description) {
