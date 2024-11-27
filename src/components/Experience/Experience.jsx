@@ -19,8 +19,7 @@ export default function Education({ experienceRef }) {
             date: '2023.12 - 2024.07 (7개월)',
             description:
                 [
-                    'Java 개발자 양성 과정 수료',
-                    '',
+                    'Java 개발자 양성 과정 수료', '', '',
                     '1. 기초 프로그래밍',
                     '2. SQL',
                     '4. 백엔드 개발',
@@ -36,10 +35,21 @@ export default function Education({ experienceRef }) {
             date: '2024.11 - 현재',
             description:
                 [
-                    '웹R&D부서 개발팀 사원',
-                    '',
-                    '• 랜딩페이지 전환 스크립트 삽입',
-                    '• 레거시 코드 리팩토링을 통해 form 데이터 전송 비동기화, View와 DB 분리',
+                    '웹R&D부서 개발팀 사원', '', '',
+                    {
+                        type: 'list',
+                        items: [
+                            '랜딩페이지 전환 스크립트 삽입', '',
+                            '레거시 코드 리팩토링',
+                            {
+                                type: 'list',
+                                items: [
+                                    '랜딩페이지 form 데이터 전송 비동기화, View와 DB 분리',
+                                    '관리자 모드에서 session을 사용해 로그인 우회를 방지',
+                                ],
+                            },
+                        ],
+                    },
                 ]
         },
     ];
@@ -47,7 +57,7 @@ export default function Education({ experienceRef }) {
     return (
         <>
             <section className='experience' ref={experienceRef}>
-                <h2 className='experience__heading'>Experience</h2>
+                <h2 className='exp__heading'>Experience</h2>
                 {experienceItem.map((item, index) => (
                     <ExperienceItem key={index} src={item.src} alt={item.alt}
                         title={item.title} date={item.date} description={item.description} />
