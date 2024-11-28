@@ -7,7 +7,7 @@ export default function Project({ projectRef }) {
     const projItem = [
         {
             src: projImages.personal_project_01,
-            alt: '프로젝트 이미지',
+            alt: '개인 포트폴리오',
             title: '개인 포트폴리오',
             description: '포트폴리오를 한 눈에 보기 쉽게 사이트로 제작하였습니다.',
             icon: [
@@ -21,7 +21,7 @@ export default function Project({ projectRef }) {
         },
         {
             src: projImages.team_project_03,
-            alt: '프로젝트 이미지',
+            alt: 'pretzel',
             title: 'pretzel',
             description: '(team) 영화 OTT 서비스를 제공하는 사이트입니다.',
             icon: [
@@ -47,7 +47,7 @@ export default function Project({ projectRef }) {
         },
         {
             src: projImages.team_project_02,
-            alt: '프로젝트 이미지',
+            alt: '제주여행',
             title: '제주여행',
             description: '(team) 제주도의 여행 정보를 제공하는 사이트입니다.',
             icon: [
@@ -67,7 +67,7 @@ export default function Project({ projectRef }) {
         },
         {
             src: projImages.team_project_01,
-            alt: '프로젝트 이미지',
+            alt: 'forest',
             title: 'forest',
             description: '(team) 향수를 주제로 한 쇼핑몰 사이트입니다.',
             icon: [
