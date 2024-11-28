@@ -6,14 +6,14 @@
     padding-top: 130px;
 }
 
-.experience__heading {
+.exp__heading {
     color: white;
     letter-spacing: 0.4rem;
     padding: 20px 0 10px 10vw;
     font: 700 1.7rem "Avenir";
 }
 
-.experience__item {
+.exp__item {
     color: white;
     font-family: "Avenir", "NanumSquare";
     margin: 30px 10vw 0 10vw;
@@ -21,7 +21,7 @@
     padding-bottom: 30px;
 }
 
-.experience__item-icon {
+.exp__item-icon {
     object-fit: contain;
     max-width: 150px;
     width: 100%;
@@ -32,26 +32,32 @@
     background-color: white;
 }
 
-.experience__item-content {
+.exp__item-content {
     height: auto;
     padding-left: 40px;
     border-left: 1px solid rgb(84, 84, 84);
 }
 
-.experience__item-title {
+.exp__item-title {
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 2px;
     padding-bottom: 15px;
 }
 
-.experience__item-date {
+.exp__item-date {
     font-size: 17px;
     padding-bottom: 10px;
     color: rgb(142, 142, 142);
 }
 
-.experience__item-description {
+/* 2번째 중첩된 ul의 li */
+.exp__item-description-list ul ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.exp__item-description {
     margin-top: 10px;
     font-size: 17px;
 }

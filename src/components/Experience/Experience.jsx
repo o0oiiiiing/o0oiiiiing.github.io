@@ -1,26 +1,25 @@
 import React from 'react';
 import '../../styles/sections/experience.css';
-import ExperienceItem from './ExperienceItem';
-import ExperienceImages from './ExperienceImages';
+import ExpItem from './ExpItem';
+import ExpImages from './ExpImages';
 
 export default function Education({ experienceRef }) {
-    const experienceItem = [
+    const expItem = [
         {
-            src: ExperienceImages.bcu,
+            src: ExpImages.bcu,
             alt: '부천대학교',
             title: '부천대학교',
             date: '2020.03 - 2022.02 (2년)',
             description: ['정보통신과 졸업']
         },
         {
-            src: ExperienceImages.ict,
+            src: ExpImages.ict,
             alt: '한국ICT인재개발원',
             title: '한국ICT인재개발원',
             date: '2023.12 - 2024.07 (7개월)',
             description:
                 [
-                    'Java 개발자 양성 과정 수료',
-                    '',
+                    'Java 개발자 양성 과정 수료', '', '',
                     '1. 기초 프로그래밍',
                     '2. SQL',
                     '4. 백엔드 개발',
@@ -30,16 +29,27 @@ export default function Education({ experienceRef }) {
                 ]
         },
         {
-            src: ExperienceImages.osc,
+            src: ExpImages.osc,
             alt: '한걸음컴퍼니',
             title: '한걸음컴퍼니',
             date: '2024.11 - 현재',
             description:
                 [
-                    '웹R&D부서 개발팀 사원',
-                    '',
-                    '• 랜딩페이지 전환 스크립트 삽입',
-                    '• 레거시 코드 리팩토링을 통해 form 데이터 전송 비동기화, View와 DB 분리',
+                    '웹R&D부서 개발팀 사원', '', '',
+                    {
+                        type: 'list',
+                        items: [
+                            '랜딩페이지 전환 스크립트 삽입', '',
+                            '레거시 코드 리팩토링',
+                            {
+                                type: 'list',
+                                items: [
+                                    '랜딩페이지 form 데이터 전송 비동기화, View와 DB 분리',
+                                    '관리자 모드에서 session을 사용해 로그인 우회를 방지',
+                                ],
+                            },
+                        ],
+                    },
                 ]
         },
     ];
@@ -47,9 +57,9 @@ export default function Education({ experienceRef }) {
     return (
         <>
             <section className='experience' ref={experienceRef}>
-                <h2 className='experience__heading'>Experience</h2>
-                {experienceItem.map((item, index) => (
-                    <ExperienceItem key={index} src={item.src} alt={item.alt}
+                <h2 className='exp__heading'>Experience</h2>
+                {expItem.map((item, index) => (
+                    <ExpItem key={index} src={item.src} alt={item.alt}
                         title={item.title} date={item.date} description={item.description} />
                 ))}
             </section>
