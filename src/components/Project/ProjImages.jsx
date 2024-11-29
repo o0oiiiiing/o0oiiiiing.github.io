@@ -6,7 +6,7 @@ import team_project_02 from '../../assets/team_project_02.png'
 import team_project_03 from '../../assets/team_project_03.png'
 import personal_project_01 from '../../assets/personal_project_01.png'
 
-const projectImages = {
+const projImages = {
     github,
     figma,
     team_project_01,
@@ -15,4 +15,4 @@ const projectImages = {
     personal_project_01,
 }
 
-export default projectImages;
+export default projImages;
