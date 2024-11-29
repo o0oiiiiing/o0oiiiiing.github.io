@@ -71,3 +71,30 @@
 .proj__item-icon:hover {
     filter: contrast(40%);
 }
+
+.proj__modal-scrim {
+    z-index: 98;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.proj__modal-content {
+    z-index: 98;
+    position: fixed;
+    width: 70vw;
+    height: 83vh;
+    bottom: 0;
+    left: 15vw;
+    background-color: white;
+    border-radius: 28px 28px 0 0;
+}
+
+.proj__modal-heading {
+    padding: 3vw;
+    font:  bold 50px/50px "Avenir", "NanumSquare";;
+    letter-spacing: 3px;
+}

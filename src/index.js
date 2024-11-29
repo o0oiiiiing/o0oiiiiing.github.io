@@ -1,3 +1,7 @@
+/* index.js */
+/* React 애플리케이션의 초기화와 관련된 작업을 처리 */
+/* ex) ReactDOM.render, 글로벌 스타일 적용, 상태 관리 설정 등 */
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';

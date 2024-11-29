@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .header {
-    z-index: 99;
+    z-index: 98;
     width: 90vw;
     box-sizing: border-box;
     padding: 30px 50px;

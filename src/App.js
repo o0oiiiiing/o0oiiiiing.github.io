@@ -1,3 +1,6 @@
+/* App.js */
+/* 사용자 인터페이스와 관련된 로직을 구현 */
+
 import { useRef } from "react";
 import Header from "./components/commons/Header";
 import Home from "./components/sections/Home";
