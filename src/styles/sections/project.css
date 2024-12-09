@@ -1,26 +1,31 @@
 @charset "UTF-8";
 
+/* ========== Project : project 영역 ========== */
+/* 기본 레이아웃 및 스타일 설정 */
 .project {
-    position: relative;
-    background-color: #252525;
-    padding-top: 130px;
+    position: relative;  /* 내부 요소를 기준으로 배치 조정 가능 */
+    background-color: #252525;  /* 전체 섹션 배경색 */
+    padding-top: 130px;  /* 섹션 간 구분하기 위해 상단 여백 추가 */
 }
 
+/* 전체 섹션의 제목 */
 .proj__heading {
     color: white;
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.4rem;  /* 글자 간격 넓게 */
     padding: 20px 0px 40px 10vw;
-    font: 700 1.7rem "Avenir";
+    font: 700 1.7rem "Avenir";  /* 굵은 글씨 */
 }
 
+/* .proj__item 배치 : grid, 3열 */
 .proj__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2vw;
-    justify-content: center;
-    margin: 0 10vw;
+    gap: 2vw;  /* 항목 간 여백 */
+    margin: 0 10vw;  /* 양쪽 여백 */
 }
 
+/* ========== ProjItem : 개별 프로젝트 카드 ========== */
+/* 개별 프로젝트 */
 .proj__item {
     background-color: white;
     border-radius: 24px;
@@ -28,52 +33,63 @@
     font-family: "Avenir", "NanumSquare";
     letter-spacing: 0.06rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  /* 내부 요소들을 세로로 정렬 */
 }
 
+/* 프로젝트 썸네일 */
 .proj__item-thumbnail {
     width: 100%;
-    object-fit: cover;
+    object-fit: cover;  /* 요소의 비율 유지, 지정된 크기에 맞게 잘라서 채움 */
     border-radius: 14px;
 }
 
+/* 썸네일의 색상이 흰색과 비슷할 경우 적용 */
 .proj__item-thumbnail--light {
     border: 1.5px solid rgb(224, 224, 224);
 }
 
+/* 프로젝트 썸네일 hover */
 .proj__item-thumbnail:hover {
-    cursor: pointer;
+    cursor: pointer;  /* 클릭 가능성 명시 */
     filter: brightness(60%);
 }
 
+/* 프로젝트 제목 */
 .proj__item-title {
     font-weight: bold;
     font-size: 1.3rem;
     padding: 20px 5px 12px 5px;
 }
 
+/* 프로젝트 설명 */
 .proj__item-description {
     color: gray;
     padding: 0 5px 10px 5px;
     font-size: 0.9rem;
 }
 
+/* .proj__item-icon 배치 */
 .proj__item-flex {
-    display: flex;
-    margin-top: auto;
+    display: flex;  /* 아이콘들 가로 정렬 */
+    margin-top: auto;  /* 설명 길이에 관계없이 아이콘을 카드 하단에 고정하여 정렬 유지 */
 }
 
+/* ========== ProjLinkIcon : 카드에 들어가는 링크 아이콘 ========== */
+/* 프로젝트 링크 아이콘 (github, figma등) */
 .proj__item-icon {
     height: 40px;
     margin: 7px 15px 10px 5px;
 }
 
+/* 프로젝트 링크 아이콘 hover */
 .proj__item-icon:hover {
     filter: contrast(40%);
 }
 
+/* ========== ProjModal : 카드를 클릭하면 나오는 모달창 ========== */
+/* 모달창 뒷배경 */
 .proj__modal-scrim {
-    z-index: 98;
+    z-index: 99;  /* 최상위 레이어 */
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -82,8 +98,9 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+/* 모달창 컨텐츠 */
 .proj__modal-content {
-    z-index: 98;
+    z-index: 99; /* 최상위 레이어 */
     position: fixed;
     width: 70vw;
     height: 83vh;
@@ -93,8 +110,9 @@
     border-radius: 28px 28px 0 0;
 }
 
+/* 컨텐츠 제목 */
 .proj__modal-heading {
     padding: 3vw;
-    font:  bold 50px/50px "Avenir", "NanumSquare";;
+    font:  bold 50px/50px "Avenir", "NanumSquare";
     letter-spacing: 3px;
 }

@@ -53,7 +53,7 @@ export default function Skill({ skillRef }) {
                         </div>
                     </article>
                     <article className='skill__item'>
-                        <h3 className='skill__item-title'>Frontend Frameworks / Libraries</h3>
+                        <h3 className='skill__item-title'>Frameworks / Libraries</h3>
                         <div className='skill__item-flex'>
                             {frontend.map((fe, index) => (
                                 <SkillFigure key={index} src={fe.src} alt={fe.alt} caption={fe.caption} />
