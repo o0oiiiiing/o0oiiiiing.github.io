@@ -27,7 +27,7 @@ export default function Skill({ skillRef }) {
         { src: skillImages.sts, alt: "STS", caption: "STS" },
         { src: skillImages.figma, alt: "figma", caption: "figma" },
         { src: skillImages.git, alt: "git", caption: "git" },
-        { src: skillImages.github, alt: "github", caption: "github" },
+        { src: skillImages.github, alt: "GitHub", caption: "GitHub" },
         { src: skillImages.postman, alt: "postman", caption: "postman" },
         { src: skillImages.discord, alt: "Discord", caption: "Discord" },
         { src: skillImages.editPlus, alt: "EditPlus", caption: "EditPlus" },
