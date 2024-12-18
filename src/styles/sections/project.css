@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-/* ========== Project : project 영역 ========== */
-/* 기본 레이아웃 및 스타일 설정 */
+/* ========== Project.jsx : project 영역 ========== */
+/* 기본 레이아웃 */
 .project {
     position: relative;  /* 내부 요소를 기준으로 배치 조정 가능 */
     background-color: #252525;  /* 전체 섹션 배경색 */
@@ -24,7 +24,8 @@
     margin: 0 10vw;  /* 양쪽 여백 */
 }
 
-/* ========== ProjItem : 개별 프로젝트 카드 ========== */
+
+/* ========== ProjItem.jsx : 개별 프로젝트 카드 ========== */
 /* 개별 프로젝트 */
 .proj__item {
     background-color: white;
@@ -74,7 +75,8 @@
     margin-top: auto;  /* 설명 길이에 관계없이 아이콘을 카드 하단에 고정하여 정렬 유지 */
 }
 
-/* ========== ProjLinkIcon : 카드에 들어가는 링크 아이콘 ========== */
+
+/* ========== ProjLinkIcon.jsx : 카드에 들어가는 링크 아이콘 ========== */
 /* 프로젝트 링크 아이콘 (github, figma등) */
 .proj__item-icon {
     height: 40px;
@@ -86,7 +88,8 @@
     filter: contrast(40%);
 }
 
-/* ========== ProjModal : 카드를 클릭하면 나오는 모달창 ========== */
+
+/* ========== ProjModal.jsx : 카드를 클릭하면 나오는 모달창 ========== */
 /* 모달창 뒷배경 */
 .proj__modal-scrim {
     z-index: 99;  /* 최상위 레이어 */
