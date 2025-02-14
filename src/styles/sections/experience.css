@@ -6,29 +6,26 @@
     padding-top: 130px;
 }
 
-.exp__heading {
-    color: white;
-    letter-spacing: 0.4rem;
-    padding: 20px 0 10px 10vw;
-    font: 700 1.7rem "Avenir";
+.exp__grid {
+    display: grid;
+    row-gap: 50px;
 }
 
 .exp__item {
     color: white;
     font-family: "Avenir", "NanumSquare";
-    margin: 30px 10vw 0 10vw;
+    margin: 0 15vw;
     display: flex;
-    padding-bottom: 30px;
 }
 
 .exp__item-icon {
     object-fit: contain;
-    max-width: 150px;
+    max-width: 130px;
     width: 100%;
-    height: 150px;
+    height: 130px;
     padding: 20px;
     margin: 20px 40px 20px 0;
-    border-radius: 24px;
+    border-radius: 15px;
     background-color: white;
 }
 
@@ -39,14 +36,14 @@
 }
 
 .exp__item-title {
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
     letter-spacing: 2px;
     padding-bottom: 15px;
 }
 
 .exp__item-date {
-    font-size: 17px;
+    font-size: 13px;
     padding-bottom: 10px;
     color: rgb(142, 142, 142);
 }
@@ -59,5 +56,5 @@
 
 .exp__item-description {
     margin-top: 10px;
-    font-size: 17px;
+    font-size: 16px;
 }
