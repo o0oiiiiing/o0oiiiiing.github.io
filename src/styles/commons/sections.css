@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+.heading {
+    color: white;
+    letter-spacing: 4px;
+    padding: 20px 0 40px 15vw;
+    font: 700 25px "Avenir";
+}

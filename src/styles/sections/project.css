@@ -8,20 +8,12 @@
     padding-top: 130px;  /* 섹션 간 구분하기 위해 상단 여백 추가 */
 }
 
-/* 전체 섹션의 제목 */
-.proj__heading {
-    color: white;
-    letter-spacing: 0.4rem;  /* 글자 간격 넓게 */
-    padding: 20px 0px 40px 10vw;
-    font: 700 1.7rem "Avenir";  /* 굵은 글씨 */
-}
-
 /* .proj__item 배치 : grid, 3열 */
 .proj__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2vw;  /* 항목 간 여백 */
-    margin: 0 10vw;  /* 양쪽 여백 */
+    margin: 0 15vw;  /* 양쪽 여백 */
 }
 
 

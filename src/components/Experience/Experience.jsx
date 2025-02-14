@@ -39,15 +39,28 @@ export default function Education({ experienceRef }) {
                     {
                         type: 'list',
                         items: [
-                            '랜딩페이지 전환 스크립트 삽입', '',
+                            '랜딩페이지 기능 추가 및 수정',
+                            {
+                                type: 'list',
+                                items: [
+                                    '전환 스크립트 추가, API 연동 등',
+                                ],
+                            }, '',
                             '레거시 코드 리팩토링',
                             {
                                 type: 'list',
                                 items: [
-                                    '랜딩페이지 form 데이터 전송 비동기화, View와 DB 분리',
+                                    '랜딩페이지 데이터 전송 비동기화',
                                     '관리자 모드에서 session을 사용해 로그인 우회를 방지',
                                 ],
-                            },
+                            }, '',
+                            '허용 IP 관리 메뉴 개발',
+                            {
+                                type: 'list',
+                                items: [
+                                    '기존 관리자 페이지에 IP 추가가 가능한 메뉴 개발',
+                                ],
+                            }, '',
                         ],
                     },
                 ]
@@ -57,11 +70,13 @@ export default function Education({ experienceRef }) {
     return (
         <>
             <section className='experience' ref={experienceRef}>
-                <h2 className='exp__heading'>Experience</h2>
-                {expItem.map((item, index) => (
-                    <ExpItem key={index} src={item.src} alt={item.alt}
-                        title={item.title} date={item.date} description={item.description} />
-                ))}
+                <h2 className='heading'>Experience</h2>
+                <div className='exp__grid'>
+                    {expItem.map((item, index) => (
+                        <ExpItem key={index} src={item.src} alt={item.alt}
+                            title={item.title} date={item.date} description={item.description} />
+                    ))}
+                </div>
             </section>
         </>
     )

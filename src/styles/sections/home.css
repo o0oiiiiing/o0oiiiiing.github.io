@@ -12,9 +12,9 @@
     top: 0;
     background-color: #ffffff;
     background-image: radial-gradient(at 51.6% 14.2%, #e8b3d4 0px, transparent 60%),
-        radial-gradient(at 90.4% 24.8%, hsl(55, 86%, 77%) 0px, transparent 50%),
+        radial-gradient(at 90.4% 24.8%, hsl(51, 85.70%, 67.10%) 0px, transparent 50%),
         radial-gradient(at 56.7% 94.1%, #c9f4b2 0px, transparent 50%),
-        radial-gradient(at 3.4% 90.7%, hsl(44, 68%, 75%) 0px, transparent 50%),
+        radial-gradient(at 3.4% 90.7%, hsl(43, 72.80%, 71.20%) 0px, transparent 50%),
         radial-gradient(at 89.2% 69.4%, #bbf4e8 0px, transparent 50%),
         radial-gradient(at 14.2% 24.3%, hsl(349, 69%, 76%) 0px, transparent 60%);
     background-repeat: no-repeat;
@@ -86,7 +86,8 @@
 
 .scroll-prompt__text {
     color: #ffffff;
-    font-size: 1.1rem;
+    font-family: "Avenir";
+    font-size: 16px;
     width: max-content;
 }
 

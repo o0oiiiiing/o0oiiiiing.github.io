@@ -90,7 +90,7 @@ export default function Project({ projectRef }) {
     return (
         <>
             <section className='project' ref={projectRef}>
-                <h2 className='proj__heading'>Project</h2>
+                <h2 className='heading'>Project</h2>
                 <div className='proj__grid'>
                     {projItem.map((item, index) => (
                         <ProjItem key={index} src={item.src} alt={item.alt} title={item.title}
