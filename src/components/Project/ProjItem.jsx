@@ -6,16 +6,19 @@ import ProjModal from './ProjModal';
 
 /* project 영역의 item */
 export default function ProjItem({ src, alt, title, description, icon }) {
+    
     const [isModalOpen, setIsModalOpen] = useState(false);      /* 모달 표시 여부 */
     const [currentProjName, setCurrentProjName] = useState(''); /* 프로젝트 이름 (인자로 보내기 위함) */
 
+    // 모달 열기
     const openProjModal = (projName) => {
         setCurrentProjName(projName);
-        setIsModalOpen(true); // 모달 열기
+        setIsModalOpen(true);
     };
 
+    // 모달 닫기
     const closeProjModal = () => {
-        setIsModalOpen(false); // 모달 닫기
+        setIsModalOpen(false);
     };
 
     return (

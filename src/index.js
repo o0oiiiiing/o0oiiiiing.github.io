@@ -8,7 +8,7 @@ import App from './App';
 import './index.css';
 import './styles/commons/reset.css';
 import './styles/commons/font.css';
-import './styles/commons/sections.css';
+import './styles/commons/common.css';
 import './styles/mediaQuery/styles_0-479.css';
 import './styles/mediaQuery/styles_480-767.css';
 import './styles/mediaQuery/styles_768-1023.css';
