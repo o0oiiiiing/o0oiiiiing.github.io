@@ -45,6 +45,7 @@
 .proj__item-thumbnail:hover {
     cursor: pointer;  /* 클릭 가능성 명시 */
     filter: brightness(60%);
+    transition: filter 0.3s;
 }
 
 /* 프로젝트 제목 */
@@ -78,6 +79,7 @@
 /* 프로젝트 링크 아이콘 hover */
 .proj__item-icon:hover {
     filter: contrast(40%);
+    transition: filter 0.3s;
 }
 
 
@@ -97,10 +99,10 @@
 .proj__modal-content {
     z-index: 99; /* 최상위 레이어 */
     position: fixed;
-    width: 70vw;
+    width: 60vw;
     height: 83vh;
     bottom: 0;
-    left: 15vw;
+    left: 20vw;
     background-color: white;
     border-radius: 28px 28px 0 0;
 }
@@ -108,6 +110,6 @@
 /* 컨텐츠 제목 */
 .proj__modal-heading {
     padding: 3vw;
-    font:  bold 50px/50px "Avenir", "NanumSquare";
+    font:  bold 30px/30px "Avenir", "NanumSquare";
     letter-spacing: 3px;
 }

@@ -9,6 +9,7 @@ import Project from "./components/Project/Project";
 import Experience from "./components/Experience/Experience";
 import Contact from "./components/sections/Contact";
 import ScrollToTopButton from "./components/commons/ScrollToTopButton";
+import Footer from "./components/commons/Footer";
 
 function App() {
   // 각 영역에 대한 ref 생성
@@ -61,6 +62,7 @@ function App() {
         <Experience experienceRef={experienceRef} />
         <Contact contactRef={contactRef} />
       </main>
+      <Footer />
     </>
   );
 }

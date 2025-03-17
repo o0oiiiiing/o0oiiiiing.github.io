@@ -3,6 +3,90 @@
 .contact {
     position: relative;
     background-color: #252525;
-    height: 100vh;
-    padding-top: 130px;
+    height: calc(100vh + 109px);
+    text-align: center;
+    display: grid;
+    align-content: center;
+}
+
+.con__container {
+    box-sizing: border-box;
+    display: grid;
+    row-gap: 20px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+}
+
+.con__info {
+    display: grid;
+    row-gap: 10px;
+    margin-bottom: 30px;
+}
+
+.con__heading {
+    color: black;
+    letter-spacing: 3px;
+    font: 700 24px "Avenir";
+    width: 100%;
+}
+
+.con__description {
+    color: gray;
+    font-family: "NanumSquare", "Avenir";
+    font-size: 14px;
+}
+
+.con__label {
+    color: black;
+    font-family: "NanumSquareBold", "Avenir";
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.con__input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+    font-family: "NanumSquare", "Avenir";
+    padding: 7px;
+}
+
+.con__textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+    padding: 7px;
+    box-sizing: border-box;
+    font-family: "NanumSquare", "Avenir";
+}
+
+.con__submit-btn {
+    box-sizing: border-box;
+    width: 30%;
+    height: 40px;
+    margin: 30px auto 0 auto;
+    border: none;
+    border-radius: 5px;
+    background-color: #252525;
+    color: white;
+    font-family: "NanumSquare", "Avenir";
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.con__submit-btn:hover {
+    background-color: rgb(84, 84, 84);
 }

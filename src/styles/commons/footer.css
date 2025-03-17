@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+footer {
+    position: relative;
+    background-color: #252525;
+    text-align: center;
+    display: grid;
+    align-content: center;
+}
+
+.dd {  
+    color: white;
+    font-family: "NanumSquare", "Avenir";
+    font-size: 14px;
+    padding-bottom: 20px;
+}
