@@ -27,15 +27,17 @@ export default function ExpItem({ src, alt, title, date, description }) {
     }
 
     return (
-        <article className='exp__item'>
-            <img className='exp__item-icon' src={src} alt={alt} />
-            <div className='exp__item-content'>
-                <h3 className='exp__item-title'>{title}</h3>
-                <p className='exp__item-date'>{date}</p>
-                <ul className='exp__item-description-list'>
-                    {renderDescList(description)}
-                </ul>
-            </div>
-        </article>
+        <>
+            <article className='exp__item'>
+                <img className='exp__item-icon' src={src} alt={alt} />
+                <div className='exp__item-content'>
+                    <h3 className='exp__item-title'>{title}</h3>
+                    <p className='exp__item-date'>{date}</p>
+                    <ul className='exp__item-description-list'>
+                        {renderDescList(description)}
+                    </ul>
+                </div>
+            </article>
+        </>
     )
 }

@@ -15,9 +15,8 @@
 
 .skill__item-title {
     padding: 30px 0 15px 0;
-    color: white;
     text-align: center;
-    font: 16px "Avenir";
+    font-size: 16px;
     letter-spacing: 0.13rem;
 }
 
@@ -38,6 +37,5 @@
     padding-top: 9px;
     text-align: center;
     color: #1e1e1e;
-    font: 13px "Avenir";
-    letter-spacing: 0.5px;
+    font-size: 13px;
 }

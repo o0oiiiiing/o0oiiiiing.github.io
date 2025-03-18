@@ -17,7 +17,8 @@ export default function Project({ projectRef }) {
                     src: projImages.github,
                     alt: 'github'
                 },
-            ]
+            ],
+            option: ''
         },
         {
             src: projImages.team_project_03,
@@ -43,7 +44,8 @@ export default function Project({ projectRef }) {
                     src: projImages.github,
                     alt: 'github'
                 },
-            ]
+            ],
+            class: ''
         },
         {
             src: projImages.team_project_02,
@@ -63,7 +65,8 @@ export default function Project({ projectRef }) {
                     src: projImages.github,
                     alt: 'github'
                 },
-            ]
+            ],
+            class: 'proj__item-thumbnail--light'
         },
         {
             src: projImages.team_project_01,
@@ -83,7 +86,8 @@ export default function Project({ projectRef }) {
                     src: projImages.github,
                     alt: 'github'
                 },
-            ]
+            ],
+            class: ''
         },
     ];
 
@@ -94,7 +98,7 @@ export default function Project({ projectRef }) {
                 <div className='proj__grid'>
                     {projItem.map((item, index) => (
                         <ProjItem key={index} src={item.src} alt={item.alt} title={item.title}
-                            description={item.description} icon={item.icon} />
+                            description={item.description} icon={item.icon} className={item.class} />
                     ))}
                 </div>
             </section>
