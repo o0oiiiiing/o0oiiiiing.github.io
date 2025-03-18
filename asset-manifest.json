@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd34453a.css",
-    "main.js": "/static/js/main.3ddc5488.js",
+    "main.css": "/static/css/main.9bfbf27d.css",
+    "main.js": "/static/js/main.c1535da6.js",
     "static/media/team_project_03.png": "/static/media/team_project_03.7d7632cf92d673e665a6.png",
     "static/media/team_project_01.png": "/static/media/team_project_01.becff199490c6a742bf6.png",
     "static/media/team_project_02.png": "/static/media/team_project_02.11a895789c5d9606caf1.png",
@@ -21,6 +21,7 @@
     "static/media/mariaDB.png": "/static/media/mariaDB.89a6f3b687bc129d1be6.png",
     "static/media/figma.png": "/static/media/figma.38737259a16604f20b38.png",
     "static/media/oracleDB.png": "/static/media/oracleDB.962adccc0af8e2b2d45a.png",
+    "static/media/github_w.png": "/static/media/github_w.987334e9f782cc505f25.png",
     "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/axios.png": "/static/media/axios.56d614cd475a0cde1647.png",
     "static/media/asp.png": "/static/media/asp.16e7a2a63e3a82f8d41e.png",
@@ -28,11 +29,11 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/nextJs.png": "/static/media/nextJs.388f848a9b473caf9995.png",
     "index.html": "/index.html",
-    "main.bd34453a.css.map": "/static/css/main.bd34453a.css.map",
-    "main.3ddc5488.js.map": "/static/js/main.3ddc5488.js.map"
+    "main.9bfbf27d.css.map": "/static/css/main.9bfbf27d.css.map",
+    "main.c1535da6.js.map": "/static/js/main.c1535da6.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd34453a.css",
-    "static/js/main.3ddc5488.js"
+    "static/css/main.9bfbf27d.css",
+    "static/js/main.c1535da6.js"
   ]
 }
