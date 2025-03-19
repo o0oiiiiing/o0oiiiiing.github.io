@@ -12,8 +12,6 @@
 }
 
 .exp__item {
-    color: white;
-    font-family: "Avenir", "NanumSquare";
     margin: 0 15vw;
     display: flex;
 }
@@ -36,10 +34,11 @@
 }
 
 .exp__item-title {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 24px;
     letter-spacing: 2px;
     padding-bottom: 15px;
+    font-weight: bold;
+    font-family: "Avenir", "NanumSquareExtraBold";
 }
 
 .exp__item-date {
@@ -57,4 +56,5 @@
 .exp__item-description {
     margin-top: 10px;
     font-size: 16px;
+    color: rgb(224, 224, 224);
 }

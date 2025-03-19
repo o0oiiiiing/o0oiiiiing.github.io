@@ -1,4 +1,11 @@
-@charset "UTF-8"; 
+@charset "UTF-8";
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: "Avenir", "NanumSquare", sans-serif;
+    letter-spacing: 0.5px;
+    color: white;
+}
 
 .heading {
     color: white;

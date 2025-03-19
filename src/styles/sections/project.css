@@ -45,13 +45,14 @@
 .proj__item-thumbnail:hover {
     cursor: pointer;  /* 클릭 가능성 명시 */
     filter: brightness(60%);
-    transition: filter 0.3s;
+    transition: filter 0.3s ease;
 }
 
 /* 프로젝트 제목 */
 .proj__item-title {
+    color: black;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 20px;
     padding: 20px 5px 12px 5px;
 }
 
@@ -59,7 +60,7 @@
 .proj__item-description {
     color: gray;
     padding: 0 5px 10px 5px;
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 
 /* .proj__item-icon 배치 */
@@ -110,6 +111,9 @@
 /* 컨텐츠 제목 */
 .proj__modal-heading {
     padding: 3vw;
-    font:  bold 30px/30px "Avenir", "NanumSquare";
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
     letter-spacing: 3px;
+    color: black;
 }

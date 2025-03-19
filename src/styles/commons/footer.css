@@ -8,9 +8,18 @@ footer {
     align-content: center;
 }
 
-.dd {  
+.footer__copyright {
     color: white;
-    font-family: "NanumSquare", "Avenir";
     font-size: 14px;
     padding-bottom: 20px;
+}
+
+.footer__icon {
+    margin-bottom: 30px;
+    height: 50px;
+}
+
+.footer__icon:hover {
+    filter: brightness(50%);
+    transition: filter 0.3s ease;
 }

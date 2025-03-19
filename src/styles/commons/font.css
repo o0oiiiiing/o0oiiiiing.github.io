@@ -1,3 +1,10 @@
+/* Rubik Bubbles */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+/* Avenir */
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+/* HS산토끼체2.0 */
 @font-face {
     font-family: "HSSanTokki20-Regular";
     src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2")
@@ -6,6 +13,7 @@
     font-style: normal;
 }
 
+/* 나눔스퀘어 네오 */
 @font-face {
     font-family: "NanumSquareNeo";
     src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot);

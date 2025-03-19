@@ -39,6 +39,13 @@ export default function Education({ experienceRef }) {
                     {
                         type: 'list',
                         items: [
+                            'UX 개선',
+                            {
+                                type: 'list',
+                                items: [
+                                    '클릭 시 피드백을 제공하여 상호작용을 개선',
+                                ],
+                            }, '',
                             '랜딩페이지 기능 추가 및 수정',
                             {
                                 type: 'list',
