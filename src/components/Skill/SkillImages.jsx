@@ -18,6 +18,7 @@ import postman from '../../assets/skills/postman.png'
 import git from '../../assets/skills/git.png'
 import github from '../../assets/skills/github.png'
 import discord from '../../assets/skills/discord.png'
+import notion from '../../assets/skills/notion.png'
 import asp from '../../assets/skills/asp.png'
 import editPlus from '../../assets/skills/editPlus.png'
 import fileZilla from '../../assets/skills/fileZilla.png'
@@ -45,6 +46,7 @@ const skillImages = {
   router,
   sts,
   vsCode,
+  notion,
 };
 
 export default skillImages;

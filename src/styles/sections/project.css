@@ -23,7 +23,6 @@
     background-color: white;
     border-radius: 24px;
     padding: 10px;
-    font-family: "Avenir", "NanumSquare";
     letter-spacing: 0.06rem;
     display: flex;
     flex-direction: column;  /* 내부 요소들을 세로로 정렬 */
