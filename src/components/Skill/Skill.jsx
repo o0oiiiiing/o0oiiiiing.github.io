@@ -30,6 +30,7 @@ export default function Skill({ skillRef }) {
         { src: skillImages.github, alt: "GitHub", caption: "GitHub" },
         { src: skillImages.postman, alt: "postman", caption: "postman" },
         { src: skillImages.discord, alt: "Discord", caption: "Discord" },
+        { src: skillImages.notion, alt: "Notion", caption: "Notion" },
         { src: skillImages.editPlus, alt: "EditPlus", caption: "EditPlus" },
         { src: skillImages.fileZilla, alt: "FileZilla", caption: "FileZilla" },
     ];

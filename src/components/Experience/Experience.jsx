@@ -6,11 +6,33 @@ import ExpImages from './ExpImages';
 export default function Education({ experienceRef }) {
     const expItem = [
         {
-            src: ExpImages.bcu,
-            alt: '부천대학교',
-            title: '부천대학교',
-            date: '2020.03 - 2022.02 (2년)',
-            description: ['정보통신과 졸업']
+            src: ExpImages.osc,
+            alt: '한걸음컴퍼니',
+            title: '한걸음컴퍼니',
+            date: '2024.11 - 현재',
+            description:
+                [
+                    '웹R&D부서 개발팀 사원', '', '',
+                    {
+                        type: 'list',
+                        items: [
+                            '랜딩페이지 기능 추가 및 수정',
+                            {
+                                type: 'list',
+                                items: [
+                                    '전환 스크립트 추가, API 연동 등',
+                                ],
+                            }, '',
+                            '허용 IP 관리 메뉴 개발',
+                            {
+                                type: 'list',
+                                items: [
+                                    '기존 관리자 페이지에 IP 추가가 가능한 메뉴 개발',
+                                ],
+                            }, '',
+                        ],
+                    },
+                ]
         },
         {
             src: ExpImages.ict,
@@ -29,48 +51,11 @@ export default function Education({ experienceRef }) {
                 ]
         },
         {
-            src: ExpImages.osc,
-            alt: '한걸음컴퍼니',
-            title: '한걸음컴퍼니',
-            date: '2024.11 - 현재',
-            description:
-                [
-                    '웹R&D부서 개발팀 사원', '', '',
-                    {
-                        type: 'list',
-                        items: [
-                            'UX 개선',
-                            {
-                                type: 'list',
-                                items: [
-                                    '클릭 시 피드백을 제공하여 상호작용을 개선',
-                                ],
-                            }, '',
-                            '랜딩페이지 기능 추가 및 수정',
-                            {
-                                type: 'list',
-                                items: [
-                                    '전환 스크립트 추가, API 연동 등',
-                                ],
-                            }, '',
-                            '레거시 코드 리팩토링',
-                            {
-                                type: 'list',
-                                items: [
-                                    '랜딩페이지 데이터 전송 비동기화',
-                                    '관리자 모드에서 session을 사용해 로그인 우회를 방지',
-                                ],
-                            }, '',
-                            '허용 IP 관리 메뉴 개발',
-                            {
-                                type: 'list',
-                                items: [
-                                    '기존 관리자 페이지에 IP 추가가 가능한 메뉴 개발',
-                                ],
-                            }, '',
-                        ],
-                    },
-                ]
+            src: ExpImages.bcu,
+            alt: '부천대학교',
+            title: '부천대학교',
+            date: '2020.03 - 2022.02 (2년)',
+            description: ['정보통신과 졸업']
         },
     ];
 
