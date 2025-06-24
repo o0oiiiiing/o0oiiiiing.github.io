@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9bfbf27d.css",
-    "main.js": "/static/js/main.c1535da6.js",
+    "main.css": "/static/css/main.275afa28.css",
+    "main.js": "/static/js/main.24b1a60a.js",
     "static/media/team_project_03.png": "/static/media/team_project_03.7d7632cf92d673e665a6.png",
     "static/media/team_project_01.png": "/static/media/team_project_01.becff199490c6a742bf6.png",
     "static/media/team_project_02.png": "/static/media/team_project_02.11a895789c5d9606caf1.png",
@@ -13,6 +13,7 @@
     "static/media/git.png": "/static/media/git.52ffcca1c2260d3a141b.png",
     "static/media/OSC.png": "/static/media/OSC.44d317bf0ad161e7219e.png",
     "static/media/editPlus.png": "/static/media/editPlus.5e74c69a96fd16f6dd18.png",
+    "static/media/tistory_w.png": "/static/media/tistory_w.19f4ed2a1512cce0a1c1.png",
     "static/media/vsCode.png": "/static/media/vsCode.b39e8d9fd5dd1a1815cf.png",
     "static/media/fileZilla.png": "/static/media/fileZilla.1f01bac643906deca0f1.png",
     "static/media/mobX.png": "/static/media/mobX.35d61ab2ed1ccbd7b23b.png",
@@ -29,11 +30,11 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/nextJs.png": "/static/media/nextJs.388f848a9b473caf9995.png",
     "index.html": "/index.html",
-    "main.9bfbf27d.css.map": "/static/css/main.9bfbf27d.css.map",
-    "main.c1535da6.js.map": "/static/js/main.c1535da6.js.map"
+    "main.275afa28.css.map": "/static/css/main.275afa28.css.map",
+    "main.24b1a60a.js.map": "/static/js/main.24b1a60a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bfbf27d.css",
-    "static/js/main.c1535da6.js"
+    "static/css/main.275afa28.css",
+    "static/js/main.24b1a60a.js"
   ]
 }
