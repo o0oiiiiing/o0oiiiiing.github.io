@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.275afa28.css",
-    "main.js": "/static/js/main.24b1a60a.js",
-    "static/media/team_project_03.png": "/static/media/team_project_03.7d7632cf92d673e665a6.png",
-    "static/media/team_project_01.png": "/static/media/team_project_01.becff199490c6a742bf6.png",
-    "static/media/team_project_02.png": "/static/media/team_project_02.11a895789c5d9606caf1.png",
-    "static/media/personal_project_01.png": "/static/media/personal_project_01.b51e56f727eed159db5d.png",
+    "main.css": "/static/css/main.216b1ad5.css",
+    "main.js": "/static/js/main.5bf472fd.js",
+    "static/media/team_project_03.webp": "/static/media/team_project_03.08f77d04c7937ce78a8c.webp",
+    "static/media/team_project_02.webp": "/static/media/team_project_02.29973f9276d9a0096595.webp",
+    "static/media/team_project_01.webp": "/static/media/team_project_01.255e7ae4fe1e6e023e8b.webp",
+    "static/media/personal_project_01.webp": "/static/media/personal_project_01.a31bf135118fcef42137.webp",
     "static/media/emotion.png": "/static/media/emotion.e7c5171d414020397499.png",
     "static/media/discord.png": "/static/media/discord.bb8b8f065d6bd90b4bc2.png",
     "static/media/sts.png": "/static/media/sts.1a753d3a09a8df3cec6c.png",
@@ -16,12 +16,12 @@
     "static/media/tistory_w.png": "/static/media/tistory_w.19f4ed2a1512cce0a1c1.png",
     "static/media/vsCode.png": "/static/media/vsCode.b39e8d9fd5dd1a1815cf.png",
     "static/media/fileZilla.png": "/static/media/fileZilla.1f01bac643906deca0f1.png",
-    "static/media/mobX.png": "/static/media/mobX.35d61ab2ed1ccbd7b23b.png",
     "static/media/react.png": "/static/media/react.00e9ea933af6b2ab4df5.png",
     "static/media/router.png": "/static/media/router.bd6a5527e84ac4a1530a.png",
-    "static/media/mariaDB.png": "/static/media/mariaDB.89a6f3b687bc129d1be6.png",
     "static/media/figma.png": "/static/media/figma.38737259a16604f20b38.png",
     "static/media/oracleDB.png": "/static/media/oracleDB.962adccc0af8e2b2d45a.png",
+    "static/media/mobX.webp": "/static/media/mobX.524d32adf64edf49e2d9.webp",
+    "static/media/mariaDB.webp": "/static/media/mariaDB.c33a5b42350e25580b44.webp",
     "static/media/github_w.png": "/static/media/github_w.987334e9f782cc505f25.png",
     "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/axios.png": "/static/media/axios.56d614cd475a0cde1647.png",
@@ -30,11 +30,11 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/nextJs.png": "/static/media/nextJs.388f848a9b473caf9995.png",
     "index.html": "/index.html",
-    "main.275afa28.css.map": "/static/css/main.275afa28.css.map",
-    "main.24b1a60a.js.map": "/static/js/main.24b1a60a.js.map"
+    "main.216b1ad5.css.map": "/static/css/main.216b1ad5.css.map",
+    "main.5bf472fd.js.map": "/static/js/main.5bf472fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.275afa28.css",
-    "static/js/main.24b1a60a.js"
+    "static/css/main.216b1ad5.css",
+    "static/js/main.5bf472fd.js"
   ]
 }
