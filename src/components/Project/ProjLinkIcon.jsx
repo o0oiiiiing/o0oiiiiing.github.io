@@ -4,7 +4,7 @@ import React from 'react';
 export default function ProjLinkIcon({ href, title, src, alt }) {
     return (
         <>
-            <a href={href} target="_blank" rel="noopener noreferrer" title={title}>
+            <a href={href} target="_blank" rel="noopener noreferrer" title={title} className='proj__item-icon-container'>
                 <img className="proj__item-icon" src={src} alt={alt} />
             </a>
         </>

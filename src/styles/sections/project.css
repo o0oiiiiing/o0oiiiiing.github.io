@@ -3,19 +3,17 @@
 /* ========== Project.jsx : project 영역 ========== */
 /* 기본 레이아웃 */
 .project {
-    position: relative;  /* 내부 요소를 기준으로 배치 조정 가능 */
-    background-color: #252525;  /* 전체 섹션 배경색 */
-    padding-top: 130px;  /* 섹션 간 구분하기 위해 상단 여백 추가 */
+    position: relative; /* 내부 요소를 기준으로 배치 조정 가능 */
+    padding-top: 130px; /* 섹션 간 구분하기 위해 상단 여백 추가 */
 }
 
 /* .proj__item 배치 : grid, 3열 */
 .proj__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2vw;  /* 항목 간 여백 */
-    margin: 0 15vw;  /* 양쪽 여백 */
+    gap: 2vw; /* 항목 간 여백 */
+    margin: 0 15vw; /* 양쪽 여백 */
 }
-
 
 /* ========== ProjItem.jsx : 개별 프로젝트 카드 ========== */
 /* 개별 프로젝트 */
@@ -25,13 +23,13 @@
     padding: 10px;
     letter-spacing: 0.06rem;
     display: flex;
-    flex-direction: column;  /* 내부 요소들을 세로로 정렬 */
+    flex-direction: column; /* 내부 요소들을 세로로 정렬 */
 }
 
 /* 프로젝트 썸네일 */
 .proj__item-thumbnail {
     width: 100%;
-    object-fit: cover;  /* 요소의 비율 유지, 지정된 크기에 맞게 잘라서 채움 */
+    object-fit: cover; /* 요소의 비율 유지, 지정된 크기에 맞게 잘라서 채움 */
     border-radius: 14px;
 }
 
@@ -42,38 +40,54 @@
 
 /* 프로젝트 썸네일 hover */
 .proj__item-thumbnail:hover {
-    cursor: pointer;  /* 클릭 가능성 명시 */
+    cursor: pointer; /* 클릭 가능성 명시 */
     filter: brightness(60%);
     transition: filter 0.3s ease;
 }
 
 /* 프로젝트 제목 */
 .proj__item-title {
-    color: black;
-    font-weight: bold;
+    color: #333333;
+    font-family: "NanumSquareExtraBold";
     font-size: 20px;
     padding: 20px 5px 12px 5px;
 }
 
+.proj__item-type {
+    color: #777;
+    font-size: 14px;
+    padding: 0 5px 10px 5px;
+    font-family: "Noto Sans KR", "Tossface";
+    border: 1px solid #e0e0e0;
+    border-radius: 30px;
+    padding: 7px 10px;
+    width: fit-content;
+}
+
 /* 프로젝트 설명 */
 .proj__item-description {
-    color: gray;
-    padding: 0 5px 10px 5px;
+    color: #777;
+    padding: 10px 5px;
     font-size: 14px;
 }
 
 /* .proj__item-icon 배치 */
-.proj__item-flex {
-    display: flex;  /* 아이콘들 가로 정렬 */
-    margin-top: auto;  /* 설명 길이에 관계없이 아이콘을 카드 하단에 고정하여 정렬 유지 */
+.proj__item-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
 }
 
-
 /* ========== ProjLinkIcon.jsx : 카드에 들어가는 링크 아이콘 ========== */
+
+.proj__item-icon-container {
+    margin: 10px 5px;
+    max-width: 40px;
+}
+
 /* 프로젝트 링크 아이콘 (github, figma등) */
 .proj__item-icon {
-    height: 40px;
-    margin: 7px 15px 10px 5px;
+    width: 100%;
 }
 
 /* 프로젝트 링크 아이콘 hover */
@@ -82,11 +96,10 @@
     transition: filter 0.3s;
 }
 
-
 /* ========== ProjModal.jsx : 카드를 클릭하면 나오는 모달창 ========== */
 /* 모달창 뒷배경 */
 .proj__modal-scrim {
-    z-index: 99;  /* 최상위 레이어 */
+    z-index: 99; /* 최상위 레이어 */
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -99,20 +112,34 @@
 .proj__modal-content {
     z-index: 99; /* 최상위 레이어 */
     position: fixed;
-    width: 60vw;
-    height: 83vh;
-    bottom: 0;
-    left: 20vw;
+    width: 80vw;
+    height: 86vh;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
     background-color: white;
-    border-radius: 28px 28px 0 0;
+    border-radius: 28px;
 }
 
 /* 컨텐츠 제목 */
 .proj__modal-heading {
-    padding: 3vw;
+    padding: 60px 30px 30px 30px;
+    font-family: "NanumSquareBold";
     font-weight: bold;
     font-size: 30px;
     line-height: 30px;
     letter-spacing: 3px;
-    color: black;
+    text-align: center;
+    color: #333333;
+}
+
+.proj__modal-close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: #333333;
 }

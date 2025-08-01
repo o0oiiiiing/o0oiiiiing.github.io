@@ -4,7 +4,7 @@ import ProjLinkIcon from './ProjLinkIcon';
 import ProjModal from './ProjModal';
 
 /* project 영역의 item */
-export default function ProjItem({ src, alt, title, description, icon, className }) {
+export default function ProjItem({ src, alt, title, type, description, icon, className }) {
 
     const [isModalOpen, setIsModalOpen] = useState(false);      /* 모달 표시 여부 */
     const [currentProjName, setCurrentProjName] = useState(''); /* 프로젝트 이름 (인자로 보내기 위함) */
@@ -25,8 +25,9 @@ export default function ProjItem({ src, alt, title, description, icon, className
             <img className={`proj__item-thumbnail ${className}`}
                 src={src} alt={alt} onClick={() => openProjModal(alt)} />
             <h3 className='proj__item-title'>{title}</h3>
+            <p className="proj__item-type">{type === '팀' ? '👨🏻‍👩🏻‍👧🏻‍👦🏻 팀 프로젝트' : '👩🏻 개인 프로젝트'}</p>
             <h4 className='proj__item-description'>{description}</h4>
-            <div className='proj__item-flex'>
+            <div className='proj__item-grid'>
                 {icon.map((icon, index) => (
                     <ProjLinkIcon key={index} href={icon.href} title={icon.title} src={icon.src} alt={icon.alt} />
                 ))}

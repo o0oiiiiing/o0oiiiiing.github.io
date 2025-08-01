@@ -2,9 +2,11 @@
 
 body {
     -webkit-font-smoothing: antialiased;
-    font-family: "Avenir", "Noto Sans KR", sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
     letter-spacing: 0.5px;
     color: white;
+    word-break: keep-all;
+    user-select: none;
 }
 
 .heading {
@@ -12,4 +14,14 @@ body {
     letter-spacing: 4px;
     padding: 20px 0 40px 15vw;
     font: 700 25px "Avenir";
+}
+
+.container {
+    width: 100%;
+}
+
+.container2 {
+    width: 100%;
+    position: relative;
+    background-color: #252525;
 }

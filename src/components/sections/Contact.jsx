@@ -8,6 +8,37 @@ export default function Contact({ contactRef }) {
     const sendEmail = (e) => {
         e.preventDefault();
 
+        const name = form.current.name.value.trim();
+        const email = form.current.email.value.trim();
+        const message = form.current.message.value.trim();
+
+        // 이메일 정규식
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!name) {
+            alert("성함을 입력해 주세요.");
+            form.current.name.focus();
+            return;
+        }
+
+        if (!email) {
+            alert("이메일을 입력해 주세요.");
+            form.current.email.focus();
+            return;
+        }
+
+        if (!emailRegex.test(email)) {
+            alert("올바른 이메일 형식을 입력해 주세요.");
+            form.current.email.focus();
+            return;
+        }
+
+        if (!message) {
+            alert("내용을 입력해 주세요.");
+            form.current.message.focus();
+            return;
+        }
+
         emailjs
             .sendForm('service_m2hzsfl', 'template_gps714f', form.current, {
                 publicKey: '6QJST-4J1Q4DL2lqb',
