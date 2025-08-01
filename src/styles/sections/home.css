@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 .home {
+    width: 100%;
     position: fixed;
     top: 0;
 }
@@ -8,13 +9,16 @@
 .background__gradient {
     width: 100%;
     height: 100vh;
-    position: fixed;
+    position: absolute;
     top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-color: #ffffff;
     background-image: radial-gradient(at 51.6% 14.2%, #e8b3d4 0px, transparent 60%),
-        radial-gradient(at 90.4% 24.8%, hsl(51, 85.70%, 67.10%) 0px, transparent 50%),
+        radial-gradient(at 90.4% 24.8%, hsl(51, 85.7%, 67.1%) 0px, transparent 50%),
         radial-gradient(at 56.7% 94.1%, #c9f4b2 0px, transparent 50%),
-        radial-gradient(at 3.4% 90.7%, hsl(43, 72.80%, 71.20%) 0px, transparent 50%),
+        radial-gradient(at 3.4% 90.7%, hsl(43, 72.8%, 71.2%) 0px, transparent 50%),
         radial-gradient(at 89.2% 69.4%, #bbf4e8 0px, transparent 50%),
         radial-gradient(at 14.2% 24.3%, hsl(349, 69%, 76%) 0px, transparent 60%);
     background-repeat: no-repeat;
@@ -25,9 +29,11 @@
 }
 
 .background__noise-effect {
-    position: fixed;
-    left: 0;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
     top: 0;
+    left: 0;
     right: 0;
     bottom: 0;
     background-image: url("https://i.ibb.co/x3TCktM/645cbb8ec449398255b76326-noise.gif");
@@ -35,7 +41,7 @@
     background-size: auto;
     pointer-events: none;
     opacity: 0.05;
-    transition: opacity 0.2s cubic - bezier(0.445, 0.05, 0.55, 0.95);
+    transition: opacity 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
     visibility: visible;
 }
 
@@ -47,12 +53,13 @@
     top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
-    font: 3.75rem/6.25rem "HSSanTokki20-Regular";
+    font: 60px/100px "HSSanTokki20-Regular";
     cursor: default;
+    word-break: keep-all;
 }
 
 .title--large-text {
-    font-size: 4.37rem;
+    font-size: 70px;
 }
 
 .title--bounce-text {

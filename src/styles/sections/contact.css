@@ -2,7 +2,6 @@
 
 .contact {
     position: relative;
-    background-color: #252525;
     height: 94vh;
     text-align: center;
     display: grid;
@@ -28,7 +27,7 @@
 }
 
 .con__heading {
-    color: black;
+    color: #333333;
     letter-spacing: 3px;
     font: 700 24px "Avenir";
     width: 100%;
@@ -41,13 +40,13 @@
 }
 
 .con__label {
-    color: black;
+    color: #333333;
     font-family: "Noto Sans KR", "Avenir";
     font-weight: 600;
     font-size: 14px;
     display: block;
     text-align: left;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     padding-left: 5px;
 }
 

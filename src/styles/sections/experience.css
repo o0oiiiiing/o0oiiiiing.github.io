@@ -2,7 +2,6 @@
 
 .experience {
     position: relative;
-    background-color: #252525;
     padding-top: 130px;
 }
 
@@ -37,8 +36,7 @@
     font-size: 24px;
     letter-spacing: 2px;
     padding-bottom: 15px;
-    font-weight: bold;
-    font-family: "Avenir", "NanumSquareExtraBold";
+    font-family: "NanumSquareExtraBold";
 }
 
 .exp__item-date {

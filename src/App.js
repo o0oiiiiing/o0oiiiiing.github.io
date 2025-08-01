@@ -56,11 +56,15 @@ function App() {
       <Header scrollFunctions={scrollFunctions} />
       <ScrollToTopButton />
       <main>
-        <Home />
-        <Skill skillRef={skillRef} />
-        <Project projectRef={projectRef} />
-        <Experience experienceRef={experienceRef} />
-        <Contact contactRef={contactRef} />
+        <div className="container">
+          <Home />
+        </div>
+        <div className="container2">
+          <Skill skillRef={skillRef} />
+          <Project projectRef={projectRef} />
+          <Experience experienceRef={experienceRef} />
+          <Contact contactRef={contactRef} />
+        </div>
       </main>
       <Footer />
     </>

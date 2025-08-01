@@ -4,6 +4,9 @@
 /* Avenir */
 @import url('https://fonts.cdnfonts.com/css/avenir');
 
+/* 토스 페이스 */
+@import url('https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css');
+
 /* HS산토끼체2.0 */
 @font-face {
     font-family: "HSSanTokki20-Regular";

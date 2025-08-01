@@ -26,17 +26,43 @@ export default function Header({ scrollFunctions }) {
         });
     };
 
+    const [isSubNavOpen, setIsSubNavOpen] = useState(false);
+
+    const toggleSubNav = () => {
+        setIsSubNavOpen(prev => !prev);
+    };
+
     return (
         <>
-            <header className={`header ${isScrolled ? 'glassmorphism' : ''}`}>
-                <h1 className='header__logo'>Dahyeon Park</h1>
-                <nav className='nav'>
-                    <ul className='nav__list'>
-                        <li className='nav__item' onClick={scrollToHome}>home</li>
-                        <li className='nav__item' onClick={scrollFunctions.scrollToSkill}>skill</li>
-                        <li className='nav__item' onClick={scrollFunctions.scrollToProject}>project</li>
-                        <li className='nav__item' onClick={scrollFunctions.scrollToExperience}>experience</li>
-                        <li className='nav__item' onClick={scrollFunctions.scrollToContact}>contact</li>
+            <header className={`header ${isScrolled || isSubNavOpen ? 'glassmorphism' : ''}`}>
+                <div className='header__container'>
+                    <h1 className='header__logo'>Dahyeon Park</h1>
+                    <nav className='nav'>
+                        <ul className='nav__list'>
+                            <li className='nav__item' onClick={scrollToHome}>home</li>
+                            <li className='nav__item' onClick={scrollFunctions.scrollToSkill}>skill</li>
+                            <li className='nav__item' onClick={scrollFunctions.scrollToProject}>project</li>
+                            <li className='nav__item' onClick={scrollFunctions.scrollToExperience}>experience</li>
+                            <li className='nav__item' onClick={scrollFunctions.scrollToContact}>contact</li>
+                        </ul>
+                    </nav>
+
+                    {/* 서브 네비게이션 */}
+                    {/* 모바일 또는 작은 화면에서만 보이도록 설정 */}
+                    <div className='sub-nav__icon-container'>
+                        <span className='sub-nav__icon material-symbols-rounded' onClick={toggleSubNav}>
+                            {`${isSubNavOpen ? 'close' : 'menu'}`}
+                        </span>
+                    </div>
+                </div>
+
+                <nav className={`sub-nav ${isSubNavOpen ? 'open' : 'close'}`}>
+                    <ul className='sub-nav__list'>
+                        <li className='sub-nav__item' onClick={scrollToHome}>home</li>
+                        <li className='sub-nav__item' onClick={scrollFunctions.scrollToSkill}>skill</li>
+                        <li className='sub-nav__item' onClick={scrollFunctions.scrollToProject}>project</li>
+                        <li className='sub-nav__item' onClick={scrollFunctions.scrollToExperience}>experience</li>
+                        <li className='sub-nav__item' onClick={scrollFunctions.scrollToContact}>contact</li>
                     </ul>
                 </nav>
             </header>
