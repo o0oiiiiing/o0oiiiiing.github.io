@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/commons/footer.css';
-import githubIcon from '../../assets/icon/github_w.png';
-import tistoryIcon from '../../assets/icon/tistory_w.png';
+import githubIcon from '../../assets/icon/github_w.webp';
+import tistoryIcon from '../../assets/icon/tistory_w.webp';
 
 export default function Footer() {
 
