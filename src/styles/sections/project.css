@@ -76,10 +76,10 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     width: 100%;
+    margin-top: auto;
 }
 
 /* ========== ProjLinkIcon.jsx : 카드에 들어가는 링크 아이콘 ========== */
-
 .proj__item-icon-container {
     margin: 10px 5px;
     max-width: 40px;
@@ -142,4 +142,10 @@
     display: flex;
     align-items: center;
     color: #333333;
+}
+
+.test {
+    font-family: "Noto Sans KR";
+    border-radius: 8px !important;
+    border: 1px solid rgb(84, 84, 84) !important;
 }

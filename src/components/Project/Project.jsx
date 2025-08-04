@@ -11,7 +11,7 @@ export default function Project({ projectRef }) {
                 <h2 className='heading'>Project</h2>
                 <div className='proj__grid'>
                     {projItemData.map((item, index) => (
-                        <ProjItem key={index} src={item.src} alt={item.alt} title={item.title} type={item.type}
+                        <ProjItem key={index} mainIndex={index} src={item.src} alt={item.alt} title={item.title} type={item.type}
                             description={item.description} icon={item.icon} className={item.class} />
                     ))}
                 </div>

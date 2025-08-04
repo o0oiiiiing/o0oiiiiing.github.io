@@ -1,10 +1,9 @@
-import React from 'react';
 import { useState } from 'react';
 import ProjLinkIcon from './ProjLinkIcon';
 import ProjModal from './ProjModal';
 
 /* project 영역의 item */
-export default function ProjItem({ src, alt, title, type, description, icon, className }) {
+export default function ProjItem({ mainIndex, src, alt, title, type, description, icon, className }) {
 
     const [isModalOpen, setIsModalOpen] = useState(false);      /* 모달 표시 여부 */
     const [currentProjName, setCurrentProjName] = useState(''); /* 프로젝트 이름 (인자로 보내기 위함) */
@@ -29,7 +28,7 @@ export default function ProjItem({ src, alt, title, type, description, icon, cla
             <h4 className='proj__item-description'>{description}</h4>
             <div className='proj__item-grid'>
                 {icon.map((icon, index) => (
-                    <ProjLinkIcon key={index} href={icon.href} title={icon.title} src={icon.src} alt={icon.alt} />
+                    <ProjLinkIcon key={index} href={icon.href} title={icon.title} src={icon.src} alt={icon.alt} tooltipId={`tooltip-${mainIndex}-${index}`} />
                 ))}
             </div>
             {/* isModalOpen이 true일 때만 JSX 실행 */}
