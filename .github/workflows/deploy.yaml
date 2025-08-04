@@ -34,4 +34,4 @@ jobs:
           npm install -g gh-pages
           npm run deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_ACTIONS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
