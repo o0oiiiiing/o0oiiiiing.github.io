@@ -14,7 +14,14 @@ https://o0oiiiiing.github.io/
 - HTML5, CSS3, JavaScript
 ### 프레임워크 및 라이브러리
 - React
-- EamilJS : 이메일 전송
+- EmailJS : 이메일 전송 기능 구현
+  ```bash
+  npm install @emailjs/browser
+  ```
+- react-tooltip : 마우스 오버 시 툴팁 생성
+  ```bash
+  npm install react-tooltip
+  ```
 ### 상태 관리
 - React 내장 hook (useState, useEffect)
 ### 배포 및 서버
@@ -26,4 +33,4 @@ https://o0oiiiiing.github.io/
 - 코드 포맷터 및 린터 : Prettier, ESLint  
 <br>
 
-README 최종 수정일 : 2025-03-19
+README 최종 수정일 : 2025-08-04
