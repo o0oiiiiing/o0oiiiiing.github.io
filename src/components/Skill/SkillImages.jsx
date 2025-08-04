@@ -1,8 +1,8 @@
 /* skill 영역에 들어가는 이미지 경로들 (객체) */
-import asp from '../../assets/skills/asp.png'
-import axios from '../../assets/skills/axios.png'
-import css from '../../assets/skills/css.png'
-import discord from '../../assets/skills/discord.png'
+import asp from '../../assets/skills/asp.webp'
+import axios from '../../assets/skills/axios.webp'
+import css from '../../assets/skills/css.webp'
+import discord from '../../assets/skills/discord.webp'
 import editPlus from '../../assets/skills/editPlus.png'
 import emotion from '../../assets/skills/emotion.png'
 import figma from '../../assets/skills/figma.png'
