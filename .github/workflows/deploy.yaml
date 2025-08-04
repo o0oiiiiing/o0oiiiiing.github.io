@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - main  # 또는 원하는 브랜치로
+      - main  # 또는 원하는 브랜치
 
 jobs:
   deploy:
@@ -24,14 +24,10 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Configure Git
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-      - name: Deploy to gh-pages
-        run: |
-          npm install -g gh-pages
-          npm run deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.ACCESS_TOKEN }}
+          publish_dir: ./build
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
