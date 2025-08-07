@@ -8,7 +8,7 @@ export default function ProjLinkIcon({ href, title, src, alt, tooltipId }) {
                 data-tooltip-content={title}>
                 <img className="proj__item-icon" src={src} alt={alt} />
             </a>
-            <Tooltip id={tooltipId} place="bottom" className='test' />
+            <Tooltip id={tooltipId} place="bottom" className='proj__tooltip' />
         </>
     )
 }
