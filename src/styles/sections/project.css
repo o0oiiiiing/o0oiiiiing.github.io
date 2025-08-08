@@ -109,10 +109,10 @@
 }
 
 /* 모달창 컨텐츠 */
-.proj__modal-content {
+.proj__modal-body {
     z-index: 99; /* 최상위 레이어 */
     position: fixed;
-    width: 80vw;
+    width: 74vw;
     height: 86vh;
     top: 50vh;
     left: 50vw;
@@ -126,8 +126,8 @@
     -ms-overflow-style: none; /* IE and Edge */
 }
 
-.proj__modal-content::-webkit-scrollbar {
-  display: none;
+.proj__modal-body::-webkit-scrollbar {
+    display: none;
 }
 
 .proj__modal-close {
@@ -143,7 +143,7 @@
 
 /* 컨텐츠 제목 */
 .proj__modal-heading {
-    padding: 60px 30px;
+    padding-top: 60px;
     font-family: "NanumSquareBold";
     font-weight: bold;
     font-size: 30px;
@@ -153,10 +153,95 @@
     color: #333333;
 }
 
+.proj__modal-period {
+    font-family: "Noto Sans KR";
+    font-size: 14px;
+    color: #8e8e8e;
+    margin-top: 10px;
+}
+
+.proj__modal-image-wrapper {
+    box-sizing: border-box;
+    margin: 50px auto 0 auto;
+}
+
 .proj__modal-image {
-    width: 50%;
+    width: 700px;
+    display: block;
     border-radius: 14px;
-    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.proj__modal-tags{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0 70px 0;
+}
+
+.proj__modal-tag {
+    color: #777;
+    font-size: 14px;
+    padding: 0 5px 10px 5px;
+    font-family: "Noto Sans KR", "Tossface";
+    border: 1px solid #e0e0e0;
+    border-radius: 30px;
+    padding: 7px 10px;
+    width: fit-content;
+}
+
+.proj__modal-section {
+    position: relative;
+    font-family: "Noto Sans KR", "Tossface";
+    color: #333333;
+    width: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+
+.proj__modal-subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.proj__modal-content {
+    white-space: pre-line;
+    line-height: 1.8;
+}
+
+.proj__modal-link {
+    text-decoration: none;
+}
+
+.proj__modal-link:hover {
+    text-decoration: underline;
+}
+
+.proj__modal-link:link {
+    color: #398abb;
+}
+
+.proj__modal-link:visited {
+    color: #b570a6;
+}
+
+.proj__modal-link:active {
+    color: #e0e0e0;
+}
+
+.proj__modal-group {
+    margin-bottom: 30px;
+}
+
+.proj__modal-category {
+    font-weight: bold;
+    padding: 7px 0;
+}
+
+.proj__modal-list > li {
+    padding: 5px 0;
 }
 
 .proj__tooltip {
