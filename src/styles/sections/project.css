@@ -231,17 +231,18 @@
     color: #e0e0e0;
 }
 
+.proj__modal-group-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
 .proj__modal-group {
-    margin-bottom: 30px;
+    line-height: 1.8;
 }
 
 .proj__modal-category {
     font-weight: bold;
-    padding: 7px 0;
-}
-
-.proj__modal-list > li {
-    padding: 5px 0;
 }
 
 .proj__tooltip {

@@ -44,16 +44,20 @@ export default function ProjModal({ projName, onClose }) {
                                 </a>
                             )}
 
-                            {desc.type === 'group' && desc.content.map((group, idx) => (
-                                <div key={idx} className="proj__modal-group">
-                                    <h3 className="proj__modal-category">{group.category}</h3>
-                                    <ul className='proj__modal-list'>
-                                        {group.items.map((item, j) => (
-                                            <li key={j}>{item}</li>
-                                        ))}
-                                    </ul>
+                            {desc.type === 'group' && (
+                                <div className="proj__modal-group-wrapper">
+                                    {desc.content.map((group, idx) => (
+                                        <div key={idx} className="proj__modal-group">
+                                            <h3 className="proj__modal-category">{group.category}</h3>
+                                            <ul className='proj__modal-list'>
+                                                {group.items.map((item, j) => (
+                                                    <li key={j}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ))}
                                 </div>
-                            ))}
+                            )}
                         </div>
                     ))}
 
