@@ -131,19 +131,18 @@
 }
 
 .proj__modal-close {
-    position: absolute;
+    position: sticky;
     top: 30px;
     right: 30px;
     cursor: pointer;
     font-size: 30px;
-    display: flex;
-    align-items: center;
     color: #333333;
+    margin-left: auto; 
 }
 
 /* 컨텐츠 제목 */
 .proj__modal-heading {
-    padding-top: 60px;
+    padding-top: 40px;
     font-family: "NanumSquareExtraBold";
     font-weight: bold;
     font-size: 30px;
