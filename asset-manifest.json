@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.4d1b6279.css",
-    "main.js": "/static/js/main.23e0c426.js",
-    "static/media/team_project_03.webp": "/static/media/team_project_03.08f77d04c7937ce78a8c.webp",
-    "static/media/team_project_02.webp": "/static/media/team_project_02.29973f9276d9a0096595.webp",
-    "static/media/team_project_01.webp": "/static/media/team_project_01.255e7ae4fe1e6e023e8b.webp",
-    "static/media/personal_project_01.webp": "/static/media/personal_project_01.a31bf135118fcef42137.webp",
+    "main.js": "/static/js/main.bc1d54b8.js",
+    "static/media/pretzel_thumb.webp": "/static/media/pretzel_thumb.08f77d04c7937ce78a8c.webp",
+    "static/media/jejuTravel_thumb.webp": "/static/media/jejuTravel_thumb.29973f9276d9a0096595.webp",
+    "static/media/forest_thumb.webp": "/static/media/forest_thumb.255e7ae4fe1e6e023e8b.webp",
+    "static/media/portfolio_thumb.webp": "/static/media/portfolio_thumb.a31bf135118fcef42137.webp",
     "static/media/sts.webp": "/static/media/sts.841f6fbd2e4879742432.webp",
     "static/media/discord.webp": "/static/media/discord.28d0b059143886f29dd8.webp",
     "static/media/BCU.webp": "/static/media/BCU.151c3c13879a22abb790.webp",
@@ -41,10 +41,10 @@
     "static/media/ICT.webp": "/static/media/ICT.b9e7d80fbd5e4c37eac0.webp",
     "index.html": "/index.html",
     "main.4d1b6279.css.map": "/static/css/main.4d1b6279.css.map",
-    "main.23e0c426.js.map": "/static/js/main.23e0c426.js.map"
+    "main.bc1d54b8.js.map": "/static/js/main.bc1d54b8.js.map"
   },
   "entrypoints": [
     "static/css/main.4d1b6279.css",
-    "static/js/main.23e0c426.js"
+    "static/js/main.bc1d54b8.js"
   ]
 }
