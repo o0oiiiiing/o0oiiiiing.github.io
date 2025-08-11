@@ -144,7 +144,7 @@
 /* 컨텐츠 제목 */
 .proj__modal-heading {
     padding-top: 60px;
-    font-family: "NanumSquareBold";
+    font-family: "NanumSquareExtraBold";
     font-weight: bold;
     font-size: 30px;
     line-height: 30px;
@@ -160,19 +160,19 @@
     margin-top: 10px;
 }
 
-.proj__modal-image-wrapper {
+.proj__modal-thumb-wrapper {
     box-sizing: border-box;
     margin: 50px auto 0 auto;
 }
 
-.proj__modal-image {
+.proj__modal-thumb {
     width: 700px;
     display: block;
     border-radius: 14px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
-.proj__modal-tags{
+.proj__modal-tags {
     display: flex;
     gap: 10px;
     margin: 20px 0 70px 0;
@@ -234,7 +234,7 @@
 .proj__modal-group-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
 }
 
 .proj__modal-group {
@@ -243,6 +243,20 @@
 
 .proj__modal-category {
     font-weight: bold;
+}
+
+.proj__modal-image-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    width: 100%;
+}
+
+.proj__modal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .proj__tooltip {

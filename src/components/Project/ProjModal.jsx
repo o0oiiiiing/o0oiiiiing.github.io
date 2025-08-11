@@ -24,8 +24,8 @@ export default function ProjModal({ projName, onClose }) {
                     <span className='proj__modal-close material-symbols-rounded' onClick={onClose}>close</span>
                     <h1 className='proj__modal-heading'>{proj.title}</h1>
                     <p className='proj__modal-period'>{proj.period}</p>
-                    <div className="proj__modal-image-wrapper">
-                        <img className='proj__modal-image' src={proj.mainImage} alt={proj.title} />
+                    <div className="proj__modal-thumb-wrapper">
+                        <img className='proj__modal-thumb' src={proj.mainImage} alt={proj.title} />
                     </div>
                     <div className='proj__modal-tags'>
                         {proj.tag.map((tag, i) => (
@@ -55,6 +55,14 @@ export default function ProjModal({ projName, onClose }) {
                                                 ))}
                                             </ul>
                                         </div>
+                                    ))}
+                                </div>
+                            )}
+
+                            {desc.type === 'image' && (
+                                <div className="proj__modal-image-wrapper">
+                                    {desc.content.map((img, idx) => (
+                                        <img key={idx} className='proj__modal-image' src={img.src} alt={img.alt} />
                                     ))}
                                 </div>
                             )}

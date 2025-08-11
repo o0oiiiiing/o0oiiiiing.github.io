@@ -63,6 +63,89 @@ export const projDetailData = [
                 subTitle: '👩🏻‍💻 프로젝트 소개',
                 type: 'text',
                 content: '영화 OTT 서비스를 제공하는 사이트입니다.'
+            },
+            {
+                subTitle: '👥 팀 구성원',
+                type: 'text',
+                content: '5인\n• 프론트엔드 : 박다현, 최현민\n• 백엔드 : 정주형, 고예찬, 이기찬'
+            },
+            {
+                subTitle: '📝 맡은 역할',
+                type: 'text',
+                content: '• 웹디자인 (figma)\n• 프론트엔드 영역 git 형상 관리\n• admin 페이지 전체 구현\n• user 페이지 일부 구현'
+            },
+            {
+                subTitle: '⚙ 개발 환경',
+                type: 'group',
+                content: [
+                    {
+                        category: '사용한 언어',
+                        items: ['• HTML5', '• CSS3', '• JavaScript']
+                    },
+                    {
+                        category: '프레임워크 및 라이브러리',
+                        items: ['• React', '• Next.js', '• MobX', '• Axios', '• emotion', '• MUI']
+                    },
+                    {
+                        category: 'DB',
+                        items: ['• MariaDB', '• HeidiSQL']
+                    },
+                    {
+                        category: '기타 도구',
+                        items: ['• VSCode, postman']
+                    }
+                ]
+            },
+            {
+                subTitle: '✨ 구현한 주요 기능',
+                type: 'group',
+                content: [
+                    {
+                        category: '대시보드 시각화',
+                        items: [
+                            '• MUI Line, Bar, Pie 차트를 활용하여 구독·월별 통계, 장르별 비율, 시청률 TOP 10 시각화'
+                        ]
+                    },
+                    {
+                        category: '통합 관리 시스템',
+                        items: [
+                            '• 회원, 콘텐츠, 문의, 신고, 공지, FAQ 등 전 영역 CRUD 및 페이징·검색 기능 구현'
+                        ]
+                    },
+                    {
+                        category: '동적 UI/UX',
+                        items: [
+                            '• 로그인 상태 및 권한에 따른 메뉴 표시와 스타일링 변경',
+                            '• 상세 페이지에서 리뷰 작성·신고, 찜, 출연진 정보 표시 기능 구현'
+                        ]
+                    }
+                ]
+            },
+            {
+                subTitle: '🖥 주요 화면',
+                type: 'image',
+                content: [
+                    {
+                        src: projImages.pretzel_01,
+                        alt: 'Pretzel 01'
+                    },
+                    {
+                        src: projImages.pretzel_02,
+                        alt: 'Pretzel 02'
+                    },
+                    {
+                        src: projImages.pretzel_03,
+                        alt: 'Pretzel 03'
+                    },
+                    {
+                        src: projImages.pretzel_04,
+                        alt: 'Pretzel 04'
+                    },
+                    {
+                        src: projImages.pretzel_05,
+                        alt: 'Pretzel 05'
+                    }
+                ]
             }
         ],
     },
@@ -139,7 +222,57 @@ export const projDetailData = [
                 subTitle: '👩🏻‍💻 프로젝트 소개',
                 type: 'text',
                 content: '향수를 주제로 한 쇼핑몰 사이트입니다.'
-            }
+            },
+            {
+                subTitle: '👥 팀 구성원',
+                type: 'text',
+                content: '4인\n• 팀장 : 정주형\n• 팀원 : 박다현, 김형주, 김철환'
+            },
+            {
+                subTitle: '📝 맡은 역할',
+                type: 'text',
+                content: '• 웹디자인 (figma)\n• 메인, 상품, 검색 페이지의 프론트엔드 및 백엔드 기능 구현\n• header, footer 컴포넌트 구현'
+            },
+            {
+                subTitle: '⚙ 개발 환경',
+                type: 'group',
+                content: [
+                    {
+                        category: '사용한 언어',
+                        items: ['• Java', '• HTML5', '• CSS3', '• JavaScript']
+                    },
+                    {
+                        category: '프레임워크 및 라이브러리',
+                        items: ['• Spring', '• MyBatis', '• jQuery']
+                    },
+                    {
+                        category: 'DB',
+                        items: ['• OracleDB', '• SQL Developer']
+                    },
+                    {
+                        category: '기타 도구',
+                        items: ['• Eclipse']
+                    }
+                ]
+            },
+            {
+                subTitle: '✨ 구현한 주요 기능',
+                type: 'group',
+                content: [
+                    {
+                        category: '메인 페이지 배경 이미지 자동 전환',
+                        items: ['• 일정 시간 간격으로 메인 페이지 배경 이미지가 자동으로 변경되도록 구현']
+                    },
+                    {
+                        category: '스크롤 연동 가로 슬라이드',
+                        items: ['• 세로 스크롤 도중 특정 섹션에서 상품 목록이 좌→우로 슬라이드되는 기능 구현']
+                    },
+                    {
+                        category: '옵션 기반 상품 검색',
+                        items: ['• 사용자가 선택한 옵션에 따라 상품 목록을 필터링하는 기능 구현']
+                    }
+                ]
+            },
         ],
     }
 ];
