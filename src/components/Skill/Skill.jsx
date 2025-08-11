@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/sections/skill.css';
 import SkillFigure from './SkillFigure';
-import skillImages from './SkillImages';
+import { skillImages } from './SkillImages';
 
 export default function Skill({ skillRef }) {
 

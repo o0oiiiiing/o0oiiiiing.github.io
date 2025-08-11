@@ -4,7 +4,7 @@ export const projDetailData = [
     {
         title: '개인 포트폴리오',
         period: '2024.12 - 현재',
-        mainImage: projImages.personal_project_01,
+        mainImage: projImages.portfolio_thumb,
         tag: ['👩🏻 개인 프로젝트', '🖥 웹사이트', 'React', 'CI/CD', '반응형'],
         description: [
             {
@@ -56,7 +56,7 @@ export const projDetailData = [
     {
         title: 'pretzel',
         period: '2024.06 - 2024.07',
-        mainImage: projImages.team_project_03,
+        mainImage: projImages.pretzel_thumb,
         tag: ['👨🏻‍👩🏻‍👧🏻‍👦🏻 팀 프로젝트', '🖥 웹사이트', 'Next.js'],
         description: [
             {
@@ -152,7 +152,7 @@ export const projDetailData = [
     {
         title: '제주여행',
         period: '2024.04 - 2024.05',
-        mainImage: projImages.team_project_02,
+        mainImage: projImages.jejuTravel_thumb,
         tag: ['👨🏻‍👩🏻‍👧🏻‍👦🏻 팀 프로젝트', '🖥 웹사이트', 'Java', 'JSP'],
         description: [
             {
@@ -215,7 +215,7 @@ export const projDetailData = [
     {
         title: 'forest',
         period: '2024.03 - 2024.04',
-        mainImage: projImages.team_project_01,
+        mainImage: projImages.forest_thumb,
         tag: ['👨🏻‍👩🏻‍👧🏻‍👦🏻 팀 프로젝트', '🖥 웹사이트', 'Java', 'JSP'],
         description: [
             {

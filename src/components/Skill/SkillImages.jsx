@@ -23,7 +23,7 @@ import router from '../../assets/skills/router.webp'
 import sts from '../../assets/skills/sts.webp'
 import vsCode from '../../assets/skills/vsCode.webp'
 
-const skillImages = {
+export const skillImages = {
   asp,
   axios,
   css,
@@ -48,5 +48,3 @@ const skillImages = {
   vsCode,
   notion,
 };
-
-export default skillImages;
