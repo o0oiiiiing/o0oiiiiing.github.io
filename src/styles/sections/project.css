@@ -137,7 +137,15 @@
     cursor: pointer;
     font-size: 30px;
     color: #333333;
-    margin-left: auto; 
+    margin-left: auto;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.proj__modal-close:hover {
+    color: #999999;
+    transition: color 0.3s ease;
 }
 
 /* 컨텐츠 제목 */

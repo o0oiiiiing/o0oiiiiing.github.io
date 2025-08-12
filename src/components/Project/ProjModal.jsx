@@ -21,7 +21,7 @@ export default function ProjModal({ projName, onClose }) {
             <article className='proj__modal'>
                 <div className='proj__modal-scrim' onClick={onClose}></div>
                 <div className='proj__modal-body'>
-                    <span className='proj__modal-close material-symbols-rounded' onClick={onClose}>close</span>
+                    <button className='proj__modal-close material-symbols-rounded' onClick={onClose}>close</button>
                     <h1 className='proj__modal-heading'>{proj.title}</h1>
                     <p className='proj__modal-period'>{proj.period}</p>
                     <div className="proj__modal-thumb-wrapper">
