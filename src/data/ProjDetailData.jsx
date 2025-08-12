@@ -10,7 +10,8 @@ export const projDetailData = [
             {
                 subTitle: '👩🏻‍💻 프로젝트 소개',
                 type: 'text',
-                content: 'React를 기반으로 한 눈에 보기 쉬운 포트폴리오 사이트를 제작하였으며, 반응형 UI, 이메일 전송 기능, 모달 등 다양한 UI 요소를 직접 구현했습니다.\n앞으로도 프로젝트 추가 및 기능 개선을 통해 꾸준히 업데이트할 예정입니다.'
+                content: `React를 기반으로 한 눈에 보기 쉬운 포트폴리오 사이트를 제작하였으며, 반응형 UI, 이메일 전송 기능, 모달 등 다양한 UI 요소를 직접 구현했습니다.
+                앞으로도 프로젝트 추가 및 기능 개선을 통해 꾸준히 업데이트할 예정입니다.`
             },
             {
                 subTitle: '🔗 사이트 링크',
@@ -50,7 +51,16 @@ export const projDetailData = [
                         items: ['VSCode', '• Prettier', '• ESLint']
                     }
                 ]
-            }
+            },
+            {
+                subTitle: '🚀 이번 프로젝트를 통해 개선·성장한 부분',
+                type: 'text',
+                content: `• Git Commit Message Convention을 학습하고 적용하여, <strong>변경 이력 파악 속도</strong>를 높였습니다.
+                    • 반복적으로 사용되는 UI 요소를 컴포넌트로 분리하여 <strong>재사용성</strong>과 <strong>유지보수성</strong>을 강화하였습니다.
+                    • 의미론적(Semantic) HTML 태그를 사용하여 <strong>웹 접근성</strong>과 <strong>코드 가독성</strong>을 개선하였습니다.
+                    • GitHub Actions를 활용하여 자동 배포 환경을 구축하고 시도하였습니다.
+                `
+            },
         ],
     },
     {
@@ -62,7 +72,7 @@ export const projDetailData = [
             {
                 subTitle: '👩🏻‍💻 프로젝트 소개',
                 type: 'text',
-                content: '영화 OTT 서비스를 제공하는 사이트입니다.'
+                content: 'Next.js, Spring Boot, Python 기반의 AI 분석 기능을 갖춘 영화 제공 OTT 사이트입니다.'
             },
             {
                 subTitle: '👥 팀 구성원',

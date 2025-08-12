@@ -207,6 +207,10 @@
     margin-bottom: 50px;
 }
 
+.proj__modal-section strong {
+    font-weight: bold;
+}
+
 .proj__modal-subtitle {
     font-size: 24px;
     font-weight: bold;

@@ -36,7 +36,7 @@ export default function ProjModal({ projName, onClose }) {
                         <div key={i} className="proj__modal-section">
                             <h2 className="proj__modal-subtitle">{desc.subTitle}</h2>
 
-                            {desc.type === 'text' && <p className='proj__modal-content'>{desc.content}</p>}
+                            {desc.type === 'text' && <p className='proj__modal-content' dangerouslySetInnerHTML={{ __html: desc.content }} />}
 
                             {desc.type === 'link' && (
                                 <a href={desc.content} target="_blank" rel="noopener noreferrer" className='proj__modal-link'>
