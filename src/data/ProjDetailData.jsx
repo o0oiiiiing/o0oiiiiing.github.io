@@ -137,23 +137,23 @@ export const projDetailData = [
                 content: [
                     {
                         src: projImages.pretzel_01,
-                        alt: 'Pretzel 01'
+                        alt: 'pretzel 관리자 대시보드 메인 페이지'
                     },
                     {
                         src: projImages.pretzel_02,
-                        alt: 'Pretzel 02'
+                        alt: 'pretzel 관리자 콘텐츠 목록 페이지'
                     },
                     {
                         src: projImages.pretzel_03,
-                        alt: 'Pretzel 03'
+                        alt: 'pretzel 관리자 콘텐츠 등록 페이지'
                     },
                     {
                         src: projImages.pretzel_04,
-                        alt: 'Pretzel 04'
+                        alt: 'pretzel 사용자 재생 페이지'
                     },
                     {
                         src: projImages.pretzel_05,
-                        alt: 'Pretzel 05'
+                        alt: 'pretzel 사용자 리뷰 페이지'
                     }
                 ]
             }
@@ -211,16 +211,42 @@ export const projDetailData = [
                         items: ['• 배너 이미지를 일정 시간 간격으로 자동 전환하는 슬라이드 기능 구현']
                     },
                     {
-                        category: 'Summernote 활용',
-                        items: ['• Summernote를 활용하여 사용자가 손쉽게 Q&A를 작성할 수 있는 입력 창 구현']
-                    },
-                    {
                         category: '리뷰 작성 기능',
                         items: ['• 리뷰 작성 시 별점 선택과 이미지 첨부 및 상세 내용을 입력할 수 있는 기능 구현']
                     },
                 ]
             },
-        ],
+            {
+                subTitle: '🖥 주요 화면',
+                type: 'image',
+                content: [
+                    {
+                        src: projImages.jejuTravel_01,
+                        alt: 'jejuTravel 메인 페이지'
+                    },
+                    {
+                        src: projImages.jejuTravel_02,
+                        alt: 'jejuTravel 메인 페이지 - 조회수 기반 인기 여행지 목록'
+                    },
+                    {
+                        src: projImages.jejuTravel_03,
+                        alt: 'jejuTravel 상세 페이지 - 여행지 정보'
+                    },
+                    {
+                        src: projImages.jejuTravel_04,
+                        alt: 'jejuTravel 상세 페이지 - 위치 지도'
+                    },
+                    {
+                        src: projImages.jejuTravel_05,
+                        alt: 'jejuTravel 상세 페이지 - Q&A 게시판'
+                    },
+                    {
+                        src: projImages.jejuTravel_06,
+                        alt: 'jejuTravel 상세 페이지 - 여행지 리뷰'
+                    }
+                ]
+            }
+        ]
     },
     {
         title: 'forest',
@@ -280,6 +306,28 @@ export const projDetailData = [
                     {
                         category: '옵션 기반 상품 검색',
                         items: ['• 사용자가 선택한 옵션에 따라 상품 목록을 필터링하는 기능 구현']
+                    }
+                ]
+            },
+            {
+                subTitle: '🖥 주요 화면',
+                type: 'image',
+                content: [
+                    {
+                        src: projImages.forest_01,
+                        alt: 'forest 메인 페이지'
+                    },
+                    {
+                        src: projImages.forest_02,
+                        alt: 'forest 메인 페이지 - 상단 네비게이션 메뉴 펼침'
+                    },
+                    {
+                        src: projImages.forest_03,
+                        alt: 'forest 상품 목록 페이지'
+                    },
+                    {
+                        src: projImages.forest_04,
+                        alt: 'forest 검색 페이지'
                     }
                 ]
             },
