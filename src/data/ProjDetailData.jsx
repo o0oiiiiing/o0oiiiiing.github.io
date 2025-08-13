@@ -53,7 +53,7 @@ export const projDetailData = [
                 ]
             },
             {
-                subTitle: '🚀 이번 프로젝트를 통해 개선·성장한 부분',
+                subTitle: '🚀 프로젝트를 통해 개선·성장한 부분',
                 type: 'text',
                 content: `• Git Commit Message Convention을 학습하고 적용하여, <strong>변경 이력 파악 속도</strong>를 높였습니다.
                     • 반복적으로 사용되는 UI 요소를 컴포넌트로 분리하여 <strong>재사용성</strong>과 <strong>유지보수성</strong>을 강화하였습니다.
