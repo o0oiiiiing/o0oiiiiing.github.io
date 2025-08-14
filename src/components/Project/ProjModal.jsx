@@ -1,8 +1,27 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { projDetailData } from '../../data/ProjDetailData';
+import ProjLightbox from './ProjLightbox';
 
 /* item의 썸네일을 클릭하면 나오는 모달 */
 export default function ProjModal({ projName, onClose }) {
+
+    const [isLightboxOpen, setIsLightboxOpen] = useState(false);  // 라이트박스 표시 여부
+    const [currentIndex, setCurrentIndex] = useState(0);  // 이미지 인덱스 (인자로 보내기 위함)
+    const [lightboxImages, setLightboxImages] = useState([]);     // 이번 라이트박스에서 순회할 이미지 배열
+
+    // 라이트박스 열기
+    const openProjLightbox = (images, startIdx) => {
+        setLightboxImages(images);
+        setCurrentIndex(startIdx);
+        setIsLightboxOpen(true);
+    };
+
+    // 라이트박스 닫기
+    const closeProjLightbox = () => setIsLightboxOpen(false);
+
+    // 좌우 이동 (순환)
+    const goPrev = () => setCurrentIndex(i => (i - 1 + lightboxImages.length) % lightboxImages.length);
+    const goNext = () => setCurrentIndex(i => (i + 1) % lightboxImages.length);
 
     const proj = projDetailData.find(item => item.title === projName);
 
@@ -60,15 +79,24 @@ export default function ProjModal({ projName, onClose }) {
                             )}
 
                             {desc.type === 'image' && (
-                                <div className="proj__modal-image-wrapper">
-                                    {desc.content.map((img, idx) => (
-                                        <img key={idx} className='proj__modal-image' src={img.src} alt={img.alt} />
-                                    ))}
-                                </div>
+                                <>
+                                    <div className="proj__modal-image-wrapper">
+                                        {desc.content.map((img, idx) => (
+                                            <img key={idx} className='proj__modal-image' src={img.src} alt={img.alt} onClick={() => openProjLightbox(desc.content, idx)} />
+                                        ))}
+                                    </div>
+
+                                    {isLightboxOpen && (
+                                        <ProjLightbox images={lightboxImages}
+                                            currentIndex={currentIndex}
+                                            onPrev={goPrev}
+                                            onNext={goNext}
+                                            onClose={closeProjLightbox} />
+                                    )}
+                                </>
                             )}
                         </div>
                     ))}
-
                 </div>
             </article>
         </>

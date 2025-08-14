@@ -96,10 +96,16 @@
     transition: filter 0.3s;
 }
 
+.proj__tooltip {
+    font-family: "Noto Sans KR";
+    border-radius: 8px !important;
+    border: 1px solid rgb(84, 84, 84) !important;
+}
+
 /* ========== ProjModal.jsx : 카드를 클릭하면 나오는 모달창 ========== */
 /* 모달창 뒷배경 */
 .proj__modal-scrim {
-    z-index: 99; /* 최상위 레이어 */
+    z-index: 98;
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -110,7 +116,7 @@
 
 /* 모달창 컨텐츠 */
 .proj__modal-body {
-    z-index: 99; /* 최상위 레이어 */
+    z-index: 98;
     position: fixed;
     width: 74vw;
     height: 86vh;
@@ -270,8 +276,80 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
-.proj__tooltip {
-    font-family: "Noto Sans KR";
-    border-radius: 8px !important;
-    border: 1px solid rgb(84, 84, 84) !important;
+.proj__modal-image:hover {
+    filter: brightness(60%);
+    transition: filter 0.3s ease;
+}
+
+.proj__lightbox {
+    z-index: 99; /* 최상위 레이어 */
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.proj__lightbox-content > img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80vw;
+    max-height: 80vh;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.proj__lightbox-close {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    margin-left: auto;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.proj__lightbox-close:hover {
+    color: #999999;
+    transition: color 0.3s ease;
+}
+
+.proj__lightbox-prev {
+    position: fixed;
+    top: 50%;
+    left: 5vw;
+    cursor: pointer;
+    font-size: 50px;
+    color: white;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.proj__lightbox-prev:hover {
+    color: #999999;
+    transition: color 0.3s ease;
+}
+
+.proj__lightbox-next {
+    position: fixed;
+    top: 50%;
+    right: 5vw;
+    cursor: pointer;
+    font-size: 50px;
+    color: white;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.proj__lightbox-next:hover {
+    color: #999999;
+    transition: color 0.3s ease;
 }

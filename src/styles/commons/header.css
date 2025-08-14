@@ -3,7 +3,7 @@
 /* ========== Header.jsx : 헤더 ========== */
 /* 기본 레이아웃 */
 .header {
-    z-index: 98;
+    z-index: 97;
     width: 80vw;
     box-sizing: border-box;
     padding: 30px 50px;
@@ -68,7 +68,7 @@
 }
 
 .sub-nav {
-    z-index: 98;
+    z-index: 97;
     overflow: hidden;
     max-height: 0;
     font: 17px "Avenir";
