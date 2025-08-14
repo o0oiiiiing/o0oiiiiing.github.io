@@ -1,19 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.524cb1bb.css",
-    "main.js": "/static/js/main.1cff9023.js",
+    "main.css": "/static/css/main.952da2a9.css",
+    "main.js": "/static/js/main.49c6a925.js",
+    "static/media/jejuTravel_01.webp": "/static/media/jejuTravel_01.c6274fb43a72e8118ef9.webp",
     "static/media/pretzel_thumb.webp": "/static/media/pretzel_thumb.08f77d04c7937ce78a8c.webp",
     "static/media/jejuTravel_thumb.webp": "/static/media/jejuTravel_thumb.29973f9276d9a0096595.webp",
     "static/media/forest_thumb.webp": "/static/media/forest_thumb.255e7ae4fe1e6e023e8b.webp",
     "static/media/portfolio_thumb.webp": "/static/media/portfolio_thumb.a31bf135118fcef42137.webp",
+    "static/media/forest_01.webp": "/static/media/forest_01.7b38811edce96967809c.webp",
+    "static/media/jejuTravel_02.webp": "/static/media/jejuTravel_02.3f00ca51c6f5257fdbfd.webp",
+    "static/media/forest_02.webp": "/static/media/forest_02.cd03f0375aad72fd9d22.webp",
+    "static/media/forest_03.webp": "/static/media/forest_03.c246d11aaea5122cef03.webp",
+    "static/media/jejuTravel_03.webp": "/static/media/jejuTravel_03.e3cb30ea85a8fb63b52b.webp",
+    "static/media/jejuTravel_04.webp": "/static/media/jejuTravel_04.5a9a654057ef26a353e7.webp",
     "static/media/sts.webp": "/static/media/sts.841f6fbd2e4879742432.webp",
     "static/media/discord.webp": "/static/media/discord.28d0b059143886f29dd8.webp",
+    "static/media/jejuTravel_05.webp": "/static/media/jejuTravel_05.2a8947f26257c175f110.webp",
+    "static/media/jejuTravel_06.webp": "/static/media/jejuTravel_06.71896c60a011e49f0099.webp",
     "static/media/BCU.webp": "/static/media/BCU.151c3c13879a22abb790.webp",
     "static/media/emotion.webp": "/static/media/emotion.3fd2b737fac5c2caf16c.webp",
     "static/media/git.webp": "/static/media/git.b70b1492027fd5c4decb.webp",
     "static/media/OSC.webp": "/static/media/OSC.93b22bf3c543c17fd610.webp",
     "static/media/pretzel_03.webp": "/static/media/pretzel_03.43174d9273ddc3d4b799.webp",
     "static/media/pretzel_02.webp": "/static/media/pretzel_02.8c894992b77eaf77a3dc.webp",
+    "static/media/forest_04.webp": "/static/media/forest_04.32d995f6aafb569aba7f.webp",
     "static/media/pretzel_05.webp": "/static/media/pretzel_05.ea4768e5ec36629606b6.webp",
     "static/media/vsCode.webp": "/static/media/vsCode.8dcb80862f918f261b29.webp",
     "static/media/pretzel_04.webp": "/static/media/pretzel_04.221629ba14c5bc8c5dd9.webp",
@@ -40,11 +50,11 @@
     "static/media/notion.webp": "/static/media/notion.b668c5fd7030c4f33659.webp",
     "static/media/ICT.webp": "/static/media/ICT.b9e7d80fbd5e4c37eac0.webp",
     "index.html": "/index.html",
-    "main.524cb1bb.css.map": "/static/css/main.524cb1bb.css.map",
-    "main.1cff9023.js.map": "/static/js/main.1cff9023.js.map"
+    "main.952da2a9.css.map": "/static/css/main.952da2a9.css.map",
+    "main.49c6a925.js.map": "/static/js/main.49c6a925.js.map"
   },
   "entrypoints": [
-    "static/css/main.524cb1bb.css",
-    "static/js/main.1cff9023.js"
+    "static/css/main.952da2a9.css",
+    "static/js/main.49c6a925.js"
   ]
 }
