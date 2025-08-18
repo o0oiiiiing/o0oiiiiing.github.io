@@ -48,7 +48,7 @@ export const projDetailData = [
                     },
                     {
                         category: '기타 도구',
-                        items: ['VSCode', '• Prettier', '• ESLint']
+                        items: ['• VSCode', '• Prettier', '• ESLint']
                     }
                 ]
             },
@@ -102,7 +102,7 @@ export const projDetailData = [
                     },
                     {
                         category: '기타 도구',
-                        items: ['• VSCode, postman']
+                        items: ['• VSCode', '• postman']
                     }
                 ]
             },
