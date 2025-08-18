@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.952da2a9.css",
-    "main.js": "/static/js/main.49c6a925.js",
+    "main.js": "/static/js/main.06ca68f1.js",
     "static/media/jejuTravel_01.webp": "/static/media/jejuTravel_01.c6274fb43a72e8118ef9.webp",
     "static/media/pretzel_thumb.webp": "/static/media/pretzel_thumb.08f77d04c7937ce78a8c.webp",
     "static/media/jejuTravel_thumb.webp": "/static/media/jejuTravel_thumb.29973f9276d9a0096595.webp",
@@ -51,10 +51,10 @@
     "static/media/ICT.webp": "/static/media/ICT.b9e7d80fbd5e4c37eac0.webp",
     "index.html": "/index.html",
     "main.952da2a9.css.map": "/static/css/main.952da2a9.css.map",
-    "main.49c6a925.js.map": "/static/js/main.49c6a925.js.map"
+    "main.06ca68f1.js.map": "/static/js/main.06ca68f1.js.map"
   },
   "entrypoints": [
     "static/css/main.952da2a9.css",
-    "static/js/main.49c6a925.js"
+    "static/js/main.06ca68f1.js"
   ]
 }
