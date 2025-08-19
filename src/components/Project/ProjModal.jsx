@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { projDetailData } from '../../data/ProjDetailData';
 import ProjLightbox from './ProjLightbox';
 
-/* item의 썸네일을 클릭하면 나오는 모달 */
+// item의 썸네일을 클릭하면 나오는 모달
 export default function ProjModal({ projName, onClose }) {
 
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);  // 라이트박스 표시 여부
@@ -82,7 +82,12 @@ export default function ProjModal({ projName, onClose }) {
                                 <>
                                     <div className="proj__modal-image-wrapper">
                                         {desc.content.map((img, idx) => (
-                                            <img key={idx} className='proj__modal-image' src={img.src} alt={img.alt} onClick={() => openProjLightbox(desc.content, idx)} />
+                                            <img
+                                                key={idx}
+                                                className='proj__modal-image'
+                                                src={img.src}
+                                                alt={img.alt}
+                                                onClick={() => openProjLightbox(desc.content, idx)} />
                                         ))}
                                     </div>
 
