@@ -47,4 +47,4 @@ https://o0oiiiiing.github.io/
 -   코드 포맷터 및 린터 : Prettier, ESLint  
     <br>
 
-📅 README 최종 수정일 : 2025-08-04
+📅 README 최종 수정일 : 2026-07-31
